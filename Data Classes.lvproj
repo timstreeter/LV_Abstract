@@ -403,7 +403,7 @@
 							<Item Name="Lesser Equal 0_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Lesser Equal 0/SGL/Lesser Equal 0_SGL.lvclass"/>
 							<Item Name="Lesser Equal 0_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Lesser Equal 0/DBL/Lesser Equal 0_DBL.lvclass"/>
 							<Item Name="Lesser Equal 0_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Lesser Equal 0/EXT/Lesser Equal 0_EXT.lvclass"/>
-							<Item Name="Lesser Equal 0_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Lesser Equal 0/Lesser Equal 0_U64.lvclass"/>
+							<Item Name="Lesser Equal 0_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Lesser Equal 0/U64/Lesser Equal 0_U64.lvclass"/>
 						</Item>
 						<Item Name="!=0" Type="Folder">
 							<Item Name="Not Equal 0_U8.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal 0/U8/Not Equal 0_U8.lvclass"/>
@@ -499,7 +499,7 @@
 							<Item Name="Less_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/CPLX_SGL/Less_CPLX_SGL.lvclass"/>
 							<Item Name="Less_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/CPLX_DBL/Less_CPLX_DBL.lvclass"/>
 							<Item Name="Less_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/CPLX_EXT/Less_CPLX_EXT.lvclass"/>
-							<Item Name="Less_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/Less_DBL.lvclass"/>
+							<Item Name="Less_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/DBL/Less_DBL.lvclass"/>
 						</Item>
 						<Item Name="&lt;=" Type="Folder">
 							<Item Name="Less Equal_U8.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/U8/Less Equal_U8.lvclass"/>
@@ -518,8 +518,18 @@
 							<Item Name="Less Equal_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/DBL/Less Equal_DBL.lvclass"/>
 						</Item>
 					</Item>
-					<Item Name="Equal 0.vi" Type="VI" URL="../Source/Functions/Compare/Equal 0.vi"/>
+					<Item Name="Equal.vi" Type="VI" URL="../Source/Functions/Compare/Equal.vi"/>
+					<Item Name="Not Equal.vi" Type="VI" URL="../Source/Functions/Compare/Not Equal.vi"/>
+					<Item Name="Greater Than.vi" Type="VI" URL="../Source/Functions/Compare/Greater Than.vi"/>
+					<Item Name="Greater Than Equal to.vi" Type="VI" URL="../Source/Functions/Compare/Greater Than Equal to.vi"/>
+					<Item Name="Less Than.vi" Type="VI" URL="../Source/Functions/Compare/Less Than.vi"/>
+					<Item Name="Less Than Equal to.vi" Type="VI" URL="../Source/Functions/Compare/Less Than Equal to.vi"/>
 					<Item Name="Greater Than 0.vi" Type="VI" URL="../Source/Functions/Compare/Greater Than 0.vi"/>
+					<Item Name="Equal 0.vi" Type="VI" URL="../Source/Functions/Compare/Equal 0.vi"/>
+					<Item Name="Less Than 0.vi" Type="VI" URL="../Source/Functions/Compare/Less Than 0.vi"/>
+					<Item Name="Greater Than Equal to 0.vi" Type="VI" URL="../Source/Functions/Compare/Greater Than Equal to 0.vi"/>
+					<Item Name="Less Than Equal to 0.vi" Type="VI" URL="../Source/Functions/Compare/Less Than Equal to 0.vi"/>
+					<Item Name="Not Equal 0.vi" Type="VI" URL="../Source/Functions/Compare/Not Equal 0.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Abstract_Types" Type="Folder">
