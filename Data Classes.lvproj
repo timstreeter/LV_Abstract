@@ -526,11 +526,11 @@
 			<Item Name="Abstract_Types" Type="Folder">
 				<Item Name="Collections" Type="Folder">
 					<Item Name="Vector" Type="Folder">
-						<Item Name="Vector Parent.lvclass" Type="LVClass" URL="../Source/Element/Vector Parent/Vector Parent.lvclass"/>
-						<Item Name="Vector.lvclass" Type="LVClass" URL="../Source/Types/Vector/Vector.lvclass"/>
-						<Item Name="Vector_DBL.lvclass" Type="LVClass" URL="../Source/Abs_Types/Vector_DBL/Vector_DBL.lvclass"/>
+						<Item Name="Vector Parent.lvclass" Type="LVClass" URL="../Source/Abs_Types/Collections/Vectors/Parent/Vector Parent.lvclass"/>
+						<Item Name="Vector.lvclass" Type="LVClass" URL="../Source/Abs_Types/Collections/Vectors/Vector/Vector.lvclass"/>
+						<Item Name="Vector_DBL.lvclass" Type="LVClass" URL="../Source/Abs_Types/Collections/Vectors/Vector_DBL/Vector_DBL.lvclass"/>
 					</Item>
-					<Item Name="Vector of Elements.lvclass" Type="LVClass" URL="../Source/Types/Vector Elements/Vector of Elements.lvclass"/>
+					<Item Name="Vector of Elements.lvclass" Type="LVClass" URL="../Source/Abs_Types/Collections/Vectors/Vector Elements/Vector of Elements.lvclass"/>
 					<Item Name="Iterator.lvclass" Type="LVClass" URL="../Source/Abs_Types/Iterator/Iterator.lvclass"/>
 				</Item>
 				<Item Name="Value" Type="Folder">
@@ -545,7 +545,6 @@
 							<Item Name="Abs_Double Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Double Float/Abs_Double Float.lvclass"/>
 							<Item Name="Abs_Extended Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Extended Float/Abs_Extended Float.lvclass"/>
 							<Item Name="Abs_Floating Point.lvclass" Type="LVClass" URL="../Source/Abs_Types/Floating Point/Abs_Floating Point.lvclass"/>
-							<Item Name="Int_Single Float.lvclass" Type="LVClass" URL="../Source/Int_Types/SGL/Int_Single Float.lvclass"/>
 						</Item>
 						<Item Name="Integer" Type="Folder">
 							<Item Name="Abs_I8 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I8 Integer/Abs_I8 Integer.lvclass"/>
