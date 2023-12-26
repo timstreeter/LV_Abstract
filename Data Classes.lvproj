@@ -214,126 +214,129 @@
 					<Item Name="OR.vi" Type="VI" URL="../Source/Functions/Logic/OR.vi"/>
 					<Item Name="AND.vi" Type="VI" URL="../Source/Functions/Logic/AND.vi"/>
 				</Item>
-				<Item Name="Numeric" Type="Folder">
+				<Item Name="Math" Type="Folder">
 					<Item Name="Support" Type="Folder">
 						<Item Name="Add" Type="Folder">
-							<Item Name="Add_U64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/U64/Add_U64.lvclass"/>
-							<Item Name="Add_U32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/U32/Add_U32.lvclass"/>
-							<Item Name="Add_U16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/U16/Add_U16.lvclass"/>
-							<Item Name="Add_U8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/U8/Add_U8.lvclass"/>
-							<Item Name="Add_I64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/I64/Add_I64.lvclass"/>
-							<Item Name="Add_I32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/I32/Add_I32.lvclass"/>
-							<Item Name="Add_I16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/I16/Add_I16.lvclass"/>
-							<Item Name="Add_I8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/I8/Add_I8.lvclass"/>
-							<Item Name="Add_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/EXT/Add_EXT.lvclass"/>
-							<Item Name="Add_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/SGL/Add_SGL.lvclass"/>
-							<Item Name="Add_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/DBL/Add_DBL.lvclass"/>
-							<Item Name="Add_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/CPLX_EXT/Add_CPLX_EXT.lvclass"/>
-							<Item Name="Add_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/CPLX_DBL/Add_CPLX_DBL.lvclass"/>
-							<Item Name="Add_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/CPLX_SGL/Add_CPLX_SGL.lvclass"/>
-							<Item Name="Add_Time.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Add/Time/Add_Time.lvclass"/>
+							<Item Name="Add_U64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/U64/Add_U64.lvclass"/>
+							<Item Name="Add_U32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/U32/Add_U32.lvclass"/>
+							<Item Name="Add_U16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/U16/Add_U16.lvclass"/>
+							<Item Name="Add_U8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/U8/Add_U8.lvclass"/>
+							<Item Name="Add_I64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/I64/Add_I64.lvclass"/>
+							<Item Name="Add_I32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/I32/Add_I32.lvclass"/>
+							<Item Name="Add_I16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/I16/Add_I16.lvclass"/>
+							<Item Name="Add_I8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/I8/Add_I8.lvclass"/>
+							<Item Name="Add_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/EXT/Add_EXT.lvclass"/>
+							<Item Name="Add_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/SGL/Add_SGL.lvclass"/>
+							<Item Name="Add_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/DBL/Add_DBL.lvclass"/>
+							<Item Name="Add_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/CPLX_EXT/Add_CPLX_EXT.lvclass"/>
+							<Item Name="Add_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/CPLX_DBL/Add_CPLX_DBL.lvclass"/>
+							<Item Name="Add_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/CPLX_SGL/Add_CPLX_SGL.lvclass"/>
+							<Item Name="Add_Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/Time/Add_Time.lvclass"/>
 						</Item>
 						<Item Name="Subtract" Type="Folder">
-							<Item Name="Subtract_U64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/U64/Subtract_U64.lvclass"/>
-							<Item Name="Subtract_U32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/U32/Subtract_U32.lvclass"/>
-							<Item Name="Subtract_U16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/U16/Subtract_U16.lvclass"/>
-							<Item Name="Subtract_U8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/U8/Subtract_U8.lvclass"/>
-							<Item Name="Subtract_I64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/I64/Subtract_I64.lvclass"/>
-							<Item Name="Subtract_I32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/I32/Subtract_I32.lvclass"/>
-							<Item Name="Subtract_I16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/I16/Subtract_I16.lvclass"/>
-							<Item Name="Subtract_I8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/I8/Subtract_I8.lvclass"/>
-							<Item Name="Subtract_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/EXT/Subtract_EXT.lvclass"/>
-							<Item Name="Subtract_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/DBL/Subtract_DBL.lvclass"/>
-							<Item Name="Subtract_Time-Time.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/Time-Time/Subtract_Time-Time.lvclass"/>
-							<Item Name="Subtract_Time.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/Time/Subtract_Time.lvclass"/>
-							<Item Name="Subtract_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/SGL/Subtract_SGL.lvclass"/>
-							<Item Name="Subtract_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/CPLX_EXT/Subtract_CPLX_EXT.lvclass"/>
-							<Item Name="Subtract_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/CPLX_DBL/Subtract_CPLX_DBL.lvclass"/>
-							<Item Name="Subtract_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Subtract/CPLX_SGL/Subtract_CPLX_SGL.lvclass"/>
+							<Item Name="Subtract_U64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/U64/Subtract_U64.lvclass"/>
+							<Item Name="Subtract_U32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/U32/Subtract_U32.lvclass"/>
+							<Item Name="Subtract_U16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/U16/Subtract_U16.lvclass"/>
+							<Item Name="Subtract_U8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/U8/Subtract_U8.lvclass"/>
+							<Item Name="Subtract_I64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/I64/Subtract_I64.lvclass"/>
+							<Item Name="Subtract_I32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/I32/Subtract_I32.lvclass"/>
+							<Item Name="Subtract_I16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/I16/Subtract_I16.lvclass"/>
+							<Item Name="Subtract_I8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/I8/Subtract_I8.lvclass"/>
+							<Item Name="Subtract_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/EXT/Subtract_EXT.lvclass"/>
+							<Item Name="Subtract_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/DBL/Subtract_DBL.lvclass"/>
+							<Item Name="Subtract_Time-Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/Time-Time/Subtract_Time-Time.lvclass"/>
+							<Item Name="Subtract_Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/Time/Subtract_Time.lvclass"/>
+							<Item Name="Subtract_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/SGL/Subtract_SGL.lvclass"/>
+							<Item Name="Subtract_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/CPLX_EXT/Subtract_CPLX_EXT.lvclass"/>
+							<Item Name="Subtract_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/CPLX_DBL/Subtract_CPLX_DBL.lvclass"/>
+							<Item Name="Subtract_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/CPLX_SGL/Subtract_CPLX_SGL.lvclass"/>
 						</Item>
 						<Item Name="Invert" Type="Folder">
-							<Item Name="Invert_I8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/I8/Invert_I8.lvclass"/>
-							<Item Name="Invert_I16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/I16/Invert_I16.lvclass"/>
-							<Item Name="Invert_I32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/I32/Invert_I32.lvclass"/>
-							<Item Name="Invert_I64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/I64/Invert_I64.lvclass"/>
-							<Item Name="Invert_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/SGL/Invert_SGL.lvclass"/>
-							<Item Name="Invert_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/EXT/Invert_EXT.lvclass"/>
-							<Item Name="Invert_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/CPLX_SGL/Invert_CPLX_SGL.lvclass"/>
-							<Item Name="Invert_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/CPLX_DBL/Invert_CPLX_DBL.lvclass"/>
-							<Item Name="Invert_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/CPLX_EXT/Invert_CPLX_EXT.lvclass"/>
-							<Item Name="Invert_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Invert/DBL/Invert_DBL.lvclass"/>
+							<Item Name="Invert_I8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/I8/Invert_I8.lvclass"/>
+							<Item Name="Invert_I16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/I16/Invert_I16.lvclass"/>
+							<Item Name="Invert_I32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/I32/Invert_I32.lvclass"/>
+							<Item Name="Invert_I64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/I64/Invert_I64.lvclass"/>
+							<Item Name="Invert_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/SGL/Invert_SGL.lvclass"/>
+							<Item Name="Invert_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/EXT/Invert_EXT.lvclass"/>
+							<Item Name="Invert_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/CPLX_SGL/Invert_CPLX_SGL.lvclass"/>
+							<Item Name="Invert_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/CPLX_DBL/Invert_CPLX_DBL.lvclass"/>
+							<Item Name="Invert_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/CPLX_EXT/Invert_CPLX_EXT.lvclass"/>
+							<Item Name="Invert_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/DBL/Invert_DBL.lvclass"/>
 						</Item>
 						<Item Name="Decrement" Type="Folder">
-							<Item Name="Decrement_U8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/U8/Decrement_U8.lvclass"/>
-							<Item Name="Decrement_U16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/U16/Decrement_U16.lvclass"/>
-							<Item Name="Decrement_U32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/U32/Decrement_U32.lvclass"/>
-							<Item Name="Decrement_U64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/U64/Decrement_U64.lvclass"/>
-							<Item Name="Decrement_I8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/I8/Decrement_I8.lvclass"/>
-							<Item Name="Decrement_I16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/I16/Decrement_I16.lvclass"/>
-							<Item Name="Decrement_I32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/I32/Decrement_I32.lvclass"/>
-							<Item Name="Decrement_I64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/I64/Decrement_I64.lvclass"/>
-							<Item Name="Decrement_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/SGL/Decrement_SGL.lvclass"/>
-							<Item Name="Decrement_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/EXT/Decrement_EXT.lvclass"/>
-							<Item Name="Decrement_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/CPLX_SGL/Decrement_CPLX_SGL.lvclass"/>
-							<Item Name="Decrement_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/CPLX_DBL/Decrement_CPLX_DBL.lvclass"/>
-							<Item Name="Decrement_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/CPLX_EXT/Decrement_CPLX_EXT.lvclass"/>
-							<Item Name="Decrement_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Decrement/DBL/Decrement_DBL.lvclass"/>
+							<Item Name="Decrement_U8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/U8/Decrement_U8.lvclass"/>
+							<Item Name="Decrement_U16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/U16/Decrement_U16.lvclass"/>
+							<Item Name="Decrement_U32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/U32/Decrement_U32.lvclass"/>
+							<Item Name="Decrement_U64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/U64/Decrement_U64.lvclass"/>
+							<Item Name="Decrement_I8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/I8/Decrement_I8.lvclass"/>
+							<Item Name="Decrement_I16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/I16/Decrement_I16.lvclass"/>
+							<Item Name="Decrement_I32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/I32/Decrement_I32.lvclass"/>
+							<Item Name="Decrement_I64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/I64/Decrement_I64.lvclass"/>
+							<Item Name="Decrement_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/SGL/Decrement_SGL.lvclass"/>
+							<Item Name="Decrement_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/EXT/Decrement_EXT.lvclass"/>
+							<Item Name="Decrement_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/CPLX_SGL/Decrement_CPLX_SGL.lvclass"/>
+							<Item Name="Decrement_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/CPLX_DBL/Decrement_CPLX_DBL.lvclass"/>
+							<Item Name="Decrement_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/CPLX_EXT/Decrement_CPLX_EXT.lvclass"/>
+							<Item Name="Decrement_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Decrement/DBL/Decrement_DBL.lvclass"/>
 						</Item>
 						<Item Name="Divide" Type="Folder">
-							<Item Name="Divide_INT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Divide/INT/Divide_INT.lvclass"/>
-							<Item Name="Divide_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Divide/EXT/Divide_EXT.lvclass"/>
-							<Item Name="Divide_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Divide/DBL/Divide_DBL.lvclass"/>
-							<Item Name="Divide_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Divide/SGL/Divide_SGL.lvclass"/>
-							<Item Name="Divide_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Divide/CPLX_EXT/Divide_CPLX_EXT.lvclass"/>
-							<Item Name="Divide_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Divide/CPLX_SGL/Divide_CPLX_SGL.lvclass"/>
-							<Item Name="Divide_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Divide/CPLX_DBL/Divide_CPLX_DBL.lvclass"/>
+							<Item Name="Divide_INT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/INT/Divide_INT.lvclass"/>
+							<Item Name="Divide_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/EXT/Divide_EXT.lvclass"/>
+							<Item Name="Divide_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/DBL/Divide_DBL.lvclass"/>
+							<Item Name="Divide_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/SGL/Divide_SGL.lvclass"/>
+							<Item Name="Divide_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/CPLX_EXT/Divide_CPLX_EXT.lvclass"/>
+							<Item Name="Divide_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/CPLX_SGL/Divide_CPLX_SGL.lvclass"/>
+							<Item Name="Divide_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/CPLX_DBL/Divide_CPLX_DBL.lvclass"/>
 						</Item>
 						<Item Name="Multiply" Type="Folder">
-							<Item Name="Multiply_I64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/I64/Multiply_I64.lvclass"/>
-							<Item Name="Multiply_U64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/U64/Multiply_U64.lvclass"/>
-							<Item Name="Multiply_U32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/U32/Multiply_U32.lvclass"/>
-							<Item Name="Multiply_U16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/U16/Multiply_U16.lvclass"/>
-							<Item Name="Multiply_U8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/U8/Multiply_U8.lvclass"/>
-							<Item Name="Multiply_I32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/I32/Multiply_I32.lvclass"/>
-							<Item Name="Multiply_I16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/I16/Multiply_I16.lvclass"/>
-							<Item Name="Multiply_I8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/I8/Multiply_I8.lvclass"/>
-							<Item Name="Multiply_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/EXT/Multiply_EXT.lvclass"/>
-							<Item Name="Multiply_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/SGL/Multiply_SGL.lvclass"/>
-							<Item Name="Multiply_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/DBL/Multiply_DBL.lvclass"/>
-							<Item Name="Multiply_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/CPLX_EXT/Multiply_CPLX_EXT.lvclass"/>
-							<Item Name="Multiply_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/CPLX_SGL/Multiply_CPLX_SGL.lvclass"/>
-							<Item Name="Multiply_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Multiply/CPLX_DBL/Multiply_CPLX_DBL.lvclass"/>
+							<Item Name="Multiply_I64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/I64/Multiply_I64.lvclass"/>
+							<Item Name="Multiply_U64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/U64/Multiply_U64.lvclass"/>
+							<Item Name="Multiply_U32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/U32/Multiply_U32.lvclass"/>
+							<Item Name="Multiply_U16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/U16/Multiply_U16.lvclass"/>
+							<Item Name="Multiply_U8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/U8/Multiply_U8.lvclass"/>
+							<Item Name="Multiply_I32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/I32/Multiply_I32.lvclass"/>
+							<Item Name="Multiply_I16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/I16/Multiply_I16.lvclass"/>
+							<Item Name="Multiply_I8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/I8/Multiply_I8.lvclass"/>
+							<Item Name="Multiply_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/EXT/Multiply_EXT.lvclass"/>
+							<Item Name="Multiply_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/SGL/Multiply_SGL.lvclass"/>
+							<Item Name="Multiply_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/DBL/Multiply_DBL.lvclass"/>
+							<Item Name="Multiply_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/CPLX_EXT/Multiply_CPLX_EXT.lvclass"/>
+							<Item Name="Multiply_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/CPLX_SGL/Multiply_CPLX_SGL.lvclass"/>
+							<Item Name="Multiply_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/CPLX_DBL/Multiply_CPLX_DBL.lvclass"/>
 						</Item>
 						<Item Name="Increment" Type="Folder">
-							<Item Name="Increment_U8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/U8/Increment_U8.lvclass"/>
-							<Item Name="Increment_U16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/U16/Increment_U16.lvclass"/>
-							<Item Name="Increment_U32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/U32/Increment_U32.lvclass"/>
-							<Item Name="Increment_U64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/U64/Increment_U64.lvclass"/>
-							<Item Name="Increment_I8.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/I8/Increment_I8.lvclass"/>
-							<Item Name="Increment_I16.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/I16/Increment_I16.lvclass"/>
-							<Item Name="Increment_I32.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/I32/Increment_I32.lvclass"/>
-							<Item Name="Increment_I64.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/I64/Increment_I64.lvclass"/>
-							<Item Name="Increment_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/SGL/Increment_SGL.lvclass"/>
-							<Item Name="Increment_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/EXT/Increment_EXT.lvclass"/>
-							<Item Name="Increment_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/CPLX_SGL/Increment_CPLX_SGL.lvclass"/>
-							<Item Name="Increment_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/CPLX_DBL/Increment_CPLX_DBL.lvclass"/>
-							<Item Name="Increment_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/CPLX_EXT/Increment_CPLX_EXT.lvclass"/>
-							<Item Name="Increment_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Increment/DBL/Increment_DBL.lvclass"/>
+							<Item Name="Increment_U8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/U8/Increment_U8.lvclass"/>
+							<Item Name="Increment_U16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/U16/Increment_U16.lvclass"/>
+							<Item Name="Increment_U32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/U32/Increment_U32.lvclass"/>
+							<Item Name="Increment_U64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/U64/Increment_U64.lvclass"/>
+							<Item Name="Increment_I8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/I8/Increment_I8.lvclass"/>
+							<Item Name="Increment_I16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/I16/Increment_I16.lvclass"/>
+							<Item Name="Increment_I32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/I32/Increment_I32.lvclass"/>
+							<Item Name="Increment_I64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/I64/Increment_I64.lvclass"/>
+							<Item Name="Increment_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/SGL/Increment_SGL.lvclass"/>
+							<Item Name="Increment_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/EXT/Increment_EXT.lvclass"/>
+							<Item Name="Increment_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/CPLX_SGL/Increment_CPLX_SGL.lvclass"/>
+							<Item Name="Increment_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/CPLX_DBL/Increment_CPLX_DBL.lvclass"/>
+							<Item Name="Increment_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/CPLX_EXT/Increment_CPLX_EXT.lvclass"/>
+							<Item Name="Increment_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/DBL/Increment_DBL.lvclass"/>
 						</Item>
 						<Item Name="Reciprocal" Type="Folder">
-							<Item Name="Reciprocal_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Reciprocal/Numeric/Reciprocal_Numeric.lvclass"/>
-							<Item Name="Reciprocal_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Reciprocal/SGL/Reciprocal_SGL.lvclass"/>
-							<Item Name="Reciprocal_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Reciprocal/EXT/Reciprocal_EXT.lvclass"/>
-							<Item Name="Reciprocal_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Reciprocal/CPLX_SGL/Reciprocal_CPLX_SGL.lvclass"/>
-							<Item Name="Reciprocal_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Reciprocal/CPLX_DBL/Reciprocal_CPLX_DBL.lvclass"/>
-							<Item Name="Reciprocal_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Reciprocal/CPLX_EXT/Reciprocal_CPLX_EXT.lvclass"/>
-							<Item Name="Reciprocal_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Numeric/Support/Reciprocal/DBL/Reciprocal_DBL.lvclass"/>
+							<Item Name="Reciprocal_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Reciprocal/Numeric/Reciprocal_Numeric.lvclass"/>
+							<Item Name="Reciprocal_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Reciprocal/SGL/Reciprocal_SGL.lvclass"/>
+							<Item Name="Reciprocal_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Reciprocal/EXT/Reciprocal_EXT.lvclass"/>
+							<Item Name="Reciprocal_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Reciprocal/CPLX_SGL/Reciprocal_CPLX_SGL.lvclass"/>
+							<Item Name="Reciprocal_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Reciprocal/CPLX_DBL/Reciprocal_CPLX_DBL.lvclass"/>
+							<Item Name="Reciprocal_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Reciprocal/CPLX_EXT/Reciprocal_CPLX_EXT.lvclass"/>
+							<Item Name="Reciprocal_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Reciprocal/DBL/Reciprocal_DBL.lvclass"/>
 						</Item>
 					</Item>
-					<Item Name="Divide.vi" Type="VI" URL="../Source/Functions/Numeric/Divide.vi"/>
-					<Item Name="Multiply.vi" Type="VI" URL="../Source/Functions/Numeric/Multiply.vi"/>
-					<Item Name="Subtract.vi" Type="VI" URL="../Source/Functions/Numeric/Subtract.vi"/>
-					<Item Name="Add.vi" Type="VI" URL="../Source/Functions/Numeric/Add.vi"/>
+					<Item Name="Invert.vi" Type="VI" URL="../Source/Functions/Math/Invert.vi"/>
+					<Item Name="Increment.vi" Type="VI" URL="../Source/Functions/Math/Increment.vi"/>
+					<Item Name="Decrement.vi" Type="VI" URL="../Source/Functions/Math/Decrement.vi"/>
+					<Item Name="Divide.vi" Type="VI" URL="../Source/Functions/Math/Divide.vi"/>
+					<Item Name="Multiply.vi" Type="VI" URL="../Source/Functions/Math/Multiply.vi"/>
+					<Item Name="Subtract.vi" Type="VI" URL="../Source/Functions/Math/Subtract.vi"/>
+					<Item Name="Add.vi" Type="VI" URL="../Source/Functions/Math/Add.vi"/>
 				</Item>
 				<Item Name="Compare" Type="Folder">
 					<Item Name="Support" Type="Folder">
@@ -435,7 +438,7 @@
 							<Item Name="Equal_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/CPLX_SGL/Equal_CPLX_SGL.lvclass"/>
 							<Item Name="Equal_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/CPLX_DBL/Equal_CPLX_DBL.lvclass"/>
 							<Item Name="Equal_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/CPLX_EXT/Equal_CPLX_EXT.lvclass"/>
-							<Item Name="Equal_DBL.lvclass" Type="LVClass" URL="../../../LabVIEW/2021/Data Classes/Source/Functions/Compare/Support/Equal/DBL/Equal_DBL.lvclass"/>
+							<Item Name="Equal_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/DBL/Equal_DBL.lvclass"/>
 						</Item>
 						<Item Name="!=" Type="Folder">
 							<Item Name="Not Equal_U8.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal/U8/Not Equal_U8.lvclass"/>
@@ -464,9 +467,6 @@
 							<Item Name="Greater_I64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/I64/Greater_I64.lvclass"/>
 							<Item Name="Greater_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/SGL/Greater_SGL.lvclass"/>
 							<Item Name="Greater_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/EXT/Greater_EXT.lvclass"/>
-							<Item Name="Greater_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/CPLX_SGL/Greater_CPLX_SGL.lvclass"/>
-							<Item Name="Greater_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/CPLX_DBL/Greater_CPLX_DBL.lvclass"/>
-							<Item Name="Greater_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/CPLX_EXT/Greater_CPLX_EXT.lvclass"/>
 							<Item Name="Greater_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/DBL/Greater_DBL.lvclass"/>
 						</Item>
 						<Item Name="&gt;=" Type="Folder">
@@ -480,9 +480,6 @@
 							<Item Name="Greater Equal_I64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/I64/Greater Equal_I64.lvclass"/>
 							<Item Name="Greater Equal_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/SGL/Greater Equal_SGL.lvclass"/>
 							<Item Name="Greater Equal_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/EXT/Greater Equal_EXT.lvclass"/>
-							<Item Name="Greater Equal_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/CPLX_SGL/Greater Equal_CPLX_SGL.lvclass"/>
-							<Item Name="Greater Equal_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/CPLX_DBL/Greater Equal_CPLX_DBL.lvclass"/>
-							<Item Name="Greater Equal_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/CPLX_EXT/Greater Equal_CPLX_EXT.lvclass"/>
 							<Item Name="Greater Equal_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/DBL/Greater Equal_DBL.lvclass"/>
 						</Item>
 						<Item Name="&lt;" Type="Folder">
@@ -496,9 +493,6 @@
 							<Item Name="Less_I64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/I64/Less_I64.lvclass"/>
 							<Item Name="Less_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/SGL/Less_SGL.lvclass"/>
 							<Item Name="Less_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/EXT/Less_EXT.lvclass"/>
-							<Item Name="Less_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/CPLX_SGL/Less_CPLX_SGL.lvclass"/>
-							<Item Name="Less_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/CPLX_DBL/Less_CPLX_DBL.lvclass"/>
-							<Item Name="Less_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/CPLX_EXT/Less_CPLX_EXT.lvclass"/>
 							<Item Name="Less_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/DBL/Less_DBL.lvclass"/>
 						</Item>
 						<Item Name="&lt;=" Type="Folder">
@@ -512,9 +506,6 @@
 							<Item Name="Less Equal_I64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/I64/Less Equal_I64.lvclass"/>
 							<Item Name="Less Equal_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/SGL/Less Equal_SGL.lvclass"/>
 							<Item Name="Less Equal_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/EXT/Less Equal_EXT.lvclass"/>
-							<Item Name="Less Equal_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/CPLX_SGL/Less Equal_CPLX_SGL.lvclass"/>
-							<Item Name="Less Equal_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/CPLX_DBL/Less Equal_CPLX_DBL.lvclass"/>
-							<Item Name="Less Equal_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/CPLX_EXT/Less Equal_CPLX_EXT.lvclass"/>
 							<Item Name="Less Equal_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/DBL/Less Equal_DBL.lvclass"/>
 						</Item>
 					</Item>
@@ -533,6 +524,15 @@
 				</Item>
 			</Item>
 			<Item Name="Abstract_Types" Type="Folder">
+				<Item Name="Collections" Type="Folder">
+					<Item Name="Vector" Type="Folder">
+						<Item Name="Vector Parent.lvclass" Type="LVClass" URL="../Source/Element/Vector Parent/Vector Parent.lvclass"/>
+						<Item Name="Vector.lvclass" Type="LVClass" URL="../Source/Types/Vector/Vector.lvclass"/>
+						<Item Name="Vector_DBL.lvclass" Type="LVClass" URL="../Source/Abs_Types/Vector_DBL/Vector_DBL.lvclass"/>
+					</Item>
+					<Item Name="Vector of Elements.lvclass" Type="LVClass" URL="../Source/Types/Vector Elements/Vector of Elements.lvclass"/>
+					<Item Name="Iterator.lvclass" Type="LVClass" URL="../Source/Abs_Types/Iterator/Iterator.lvclass"/>
+				</Item>
 				<Item Name="Value" Type="Folder">
 					<Item Name="Numeric" Type="Folder">
 						<Item Name="Floating Point" Type="Folder">
@@ -545,6 +545,7 @@
 							<Item Name="Abs_Double Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Double Float/Abs_Double Float.lvclass"/>
 							<Item Name="Abs_Extended Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Extended Float/Abs_Extended Float.lvclass"/>
 							<Item Name="Abs_Floating Point.lvclass" Type="LVClass" URL="../Source/Abs_Types/Floating Point/Abs_Floating Point.lvclass"/>
+							<Item Name="Int_Single Float.lvclass" Type="LVClass" URL="../Source/Int_Types/SGL/Int_Single Float.lvclass"/>
 						</Item>
 						<Item Name="Integer" Type="Folder">
 							<Item Name="Abs_I8 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I8 Integer/Abs_I8 Integer.lvclass"/>
@@ -559,11 +560,6 @@
 						</Item>
 						<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="../Source/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
 						<Item Name="Abs_Time.lvclass" Type="LVClass" URL="../Source/Abs_Types/Time/Abs_Time.lvclass"/>
-					</Item>
-					<Item Name="Collections" Type="Folder">
-						<Item Name="Vector of Elements.lvclass" Type="LVClass" URL="../Source/Types/Vector Elements/Vector of Elements.lvclass"/>
-						<Item Name="Vector Parent.lvclass" Type="LVClass" URL="../Source/Element/Vector Parent/Vector Parent.lvclass"/>
-						<Item Name="Vector.lvclass" Type="LVClass" URL="../Source/Types/Vector/Vector.lvclass"/>
 					</Item>
 					<Item Name="Boolean" Type="Folder">
 						<Item Name="Abs_Boolean.lvclass" Type="LVClass" URL="../Source/Abs_Types/Boolean/Abs_Boolean.lvclass"/>
@@ -580,7 +576,6 @@
 					<Item Name="Abs_Value.lvclass" Type="LVClass" URL="../Source/Abs_Types/Value/Abs_Value.lvclass"/>
 				</Item>
 				<Item Name="Abs_Type.lvclass" Type="LVClass" URL="../Source/Abs_Types/Type/Abs_Type.lvclass"/>
-				<Item Name="Iterate.lvclass" Type="LVClass" URL="../Source/Element/Iterate/Iterate.lvclass"/>
 			</Item>
 			<Item Name="Constant" Type="Folder">
 				<Item Name="Support" Type="Folder">
@@ -607,6 +602,7 @@
 			</Item>
 			<Item Name="Variable.lvlib" Type="Library" URL="../Source/Variable/Variable.lvlib"/>
 		</Item>
+		<Item Name="Reciprocal.vi" Type="VI" URL="../Source/Functions/Math/Reciprocal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
