@@ -40,6 +40,8 @@
 			<Item Name="Build Equal Compare Types.vi" Type="VI" URL="../Scripting/Build Equal Compare Types.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
+			<Item Name="Test U16 Logic.vi" Type="VI" URL="../Test/Test U16 Logic.vi"/>
+			<Item Name="Test U8 Logic.vi" Type="VI" URL="../Test/Test U8 Logic.vi"/>
 			<Item Name="Test Array Add.vi" Type="VI" URL="../Test/Test Array Add.vi"/>
 			<Item Name="Test Iterate over Array Add.vi" Type="VI" URL="../Test/Test Iterate over Array Add.vi"/>
 			<Item Name="Test Math.vi" Type="VI" URL="../Test/Test Math.vi"/>
@@ -334,6 +336,7 @@
 					<Item Name="Increment.vi" Type="VI" URL="../Source/Functions/Math/Increment.vi"/>
 					<Item Name="Decrement.vi" Type="VI" URL="../Source/Functions/Math/Decrement.vi"/>
 					<Item Name="Divide.vi" Type="VI" URL="../Source/Functions/Math/Divide.vi"/>
+					<Item Name="Reciprocal.vi" Type="VI" URL="../Source/Functions/Math/Reciprocal.vi"/>
 					<Item Name="Multiply.vi" Type="VI" URL="../Source/Functions/Math/Multiply.vi"/>
 					<Item Name="Subtract.vi" Type="VI" URL="../Source/Functions/Math/Subtract.vi"/>
 					<Item Name="Add.vi" Type="VI" URL="../Source/Functions/Math/Add.vi"/>
@@ -537,9 +540,9 @@
 					<Item Name="Numeric" Type="Folder">
 						<Item Name="Floating Point" Type="Folder">
 							<Item Name="Complex" Type="Folder">
-								<Item Name="Complex Single Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Single Float/Complex Single Float.lvclass"/>
-								<Item Name="Complex Double Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Double Float/Complex Double Float.lvclass"/>
-								<Item Name="Complex Extended Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Extended Float/Complex Extended Float.lvclass"/>
+								<Item Name="Abs_Complex Single Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Single Float/Abs_Complex Single Float.lvclass"/>
+								<Item Name="Abs_Complex Double Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Double Float/Abs_Complex Double Float.lvclass"/>
+								<Item Name="Abs_Complex Extended Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Extended Float/Abs_Complex Extended Float.lvclass"/>
 							</Item>
 							<Item Name="Abs_Single Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Single Float/Abs_Single Float.lvclass"/>
 							<Item Name="Abs_Double Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Double Float/Abs_Double Float.lvclass"/>
@@ -575,9 +578,16 @@
 					<Item Name="Abs_Value.lvclass" Type="LVClass" URL="../Source/Abs_Types/Value/Abs_Value.lvclass"/>
 				</Item>
 				<Item Name="Abs_Type.lvclass" Type="LVClass" URL="../Source/Abs_Types/Type/Abs_Type.lvclass"/>
+				<Item Name="Abs_Write.vi" Type="VI" URL="../Source/Abs_Types/Abs_Write.vi"/>
+				<Item Name="Abs_Read.vi" Type="VI" URL="../Source/Abs_Types/Abs_Read.vi"/>
+				<Item Name="Abs_Simple_Read.vi" Type="VI" URL="../Source/Abs_Types/Abs_Simple_Read.vi"/>
 			</Item>
 			<Item Name="Constant" Type="Folder">
 				<Item Name="Support" Type="Folder">
+					<Item Name="Const_U64.lvclass" Type="LVClass" URL="../Source/Constants/Support/U64/Const_U64.lvclass"/>
+					<Item Name="Const_U32.lvclass" Type="LVClass" URL="../Source/Constants/Support/U32/Const_U32.lvclass"/>
+					<Item Name="Const_U16.lvclass" Type="LVClass" URL="../Source/Constants/Support/U16/Const_U16.lvclass"/>
+					<Item Name="Const_U8.lvclass" Type="LVClass" URL="../Source/Constants/Support/U8/Const_U8.lvclass"/>
 					<Item Name="Const_I8.lvclass" Type="LVClass" URL="../Source/Constants/Support/I8/Const_I8.lvclass"/>
 					<Item Name="Const_I16.lvclass" Type="LVClass" URL="../Source/Constants/Support/I16/Const_I16.lvclass"/>
 					<Item Name="Const_I32.lvclass" Type="LVClass" URL="../Source/Constants/Support/I32/Const_I32.lvclass"/>
@@ -596,12 +606,11 @@
 					<Item Name="Const_Variant.lvclass" Type="LVClass" URL="../Source/Constants/Support/Variant/Const_Variant.lvclass"/>
 					<Item Name="Const_WFM.lvclass" Type="LVClass" URL="../Source/Constants/Support/WFM/Const_WFM.lvclass"/>
 				</Item>
-				<Item Name="Current_Time.vi" Type="VI" URL="../Source/Constants/Current_Time.vi"/>
-				<Item Name="Constant.vi" Type="VI" URL="../Source/Constants/Constant.vi"/>
+				<Item Name="Abs_Current_Time.vi" Type="VI" URL="../Source/Constants/Abs_Current_Time.vi"/>
+				<Item Name="Abs_Constant.vi" Type="VI" URL="../Source/Constants/Abs_Constant.vi"/>
 			</Item>
 			<Item Name="Variable.lvlib" Type="Library" URL="../Source/Variable/Variable.lvlib"/>
 		</Item>
-		<Item Name="Reciprocal.vi" Type="VI" URL="../Source/Functions/Math/Reciprocal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
