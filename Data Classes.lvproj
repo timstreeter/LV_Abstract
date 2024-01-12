@@ -48,6 +48,8 @@
 			<Item Name="Test Boolean Logic.vi" Type="VI" URL="../Test/Test Boolean Logic.vi"/>
 			<Item Name="Test To and From Binary for Functions.vi" Type="VI" URL="../Test/Test To and From Binary for Functions.vi"/>
 			<Item Name="Test Divide.vi" Type="VI" URL="../Test/Test Divide.vi"/>
+			<Item Name="Test Constant Waveform Iterate Functions.vi" Type="VI" URL="../Test/Test Constant Waveform Iterate Functions.vi"/>
+			<Item Name="Test Waveform Math.vi" Type="VI" URL="../Test/Test Waveform Math.vi"/>
 		</Item>
 		<Item Name="Source" Type="Folder">
 			<Item Name="Functions" Type="Folder">
@@ -67,6 +69,7 @@
 						<Item Name="AbsFunc_One Term_U32.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/U32/AbsFunc_One Term_U32.lvclass"/>
 						<Item Name="AbsFunc_One Term_U16.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/U16/AbsFunc_One Term_U16.lvclass"/>
 						<Item Name="AbsFunc_One Term_U8.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/U8/AbsFunc_One Term_U8.lvclass"/>
+						<Item Name="AbsFunc_One Term_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/WFM_Numeric/AbsFunc_One Term_WFM_Numeric.lvclass"/>
 						<Item Name="AbsFunc_One Term_Bool.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/Boolean/AbsFunc_One Term_Bool.lvclass"/>
 					</Item>
 					<Item Name="Two Term" Type="Folder">
@@ -83,6 +86,7 @@
 						<Item Name="AbsFunc_Two Term_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/DBL/AbsFunc_Two Term_DBL.lvclass"/>
 						<Item Name="AbsFunc_Two Term_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/EXT/AbsFunc_Two Term_EXT.lvclass"/>
 						<Item Name="AbsFunc_Two Term_Time.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/Time/AbsFunc_Two Term_Time.lvclass"/>
+						<Item Name="AbsFunc_Two Term_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/WFM_Numeric/AbsFunc_Two Term_WFM_Numeric.lvclass"/>
 						<Item Name="AbsFunc_Two Term_Complex EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/Cmplx EXT/AbsFunc_Two Term_Complex EXT.lvclass"/>
 						<Item Name="AbsFunc_Two Term_Complex DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/Cmplx DBL/AbsFunc_Two Term_Complex DBL.lvclass"/>
 						<Item Name="AbsFunc_Two Term_Complex SGL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/Cmplx SGL/AbsFunc_Two Term_Complex SGL.lvclass"/>
@@ -233,6 +237,7 @@
 							<Item Name="Add_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/CPLX_EXT/Add_CPLX_EXT.lvclass"/>
 							<Item Name="Add_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/CPLX_DBL/Add_CPLX_DBL.lvclass"/>
 							<Item Name="Add_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/CPLX_SGL/Add_CPLX_SGL.lvclass"/>
+							<Item Name="Add_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/WFM_Numeric/Add_WFM_Numeric.lvclass"/>
 							<Item Name="Add_Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Add/Time/Add_Time.lvclass"/>
 						</Item>
 						<Item Name="Subtract" Type="Folder">
@@ -249,6 +254,7 @@
 							<Item Name="Subtract_Time-Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/Time-Time/Subtract_Time-Time.lvclass"/>
 							<Item Name="Subtract_Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/Time/Subtract_Time.lvclass"/>
 							<Item Name="Subtract_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/SGL/Subtract_SGL.lvclass"/>
+							<Item Name="Subtract_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/WFM_Numeric/Subtract_WFM_Numeric.lvclass"/>
 							<Item Name="Subtract_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/CPLX_EXT/Subtract_CPLX_EXT.lvclass"/>
 							<Item Name="Subtract_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/CPLX_DBL/Subtract_CPLX_DBL.lvclass"/>
 							<Item Name="Subtract_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/CPLX_SGL/Subtract_CPLX_SGL.lvclass"/>
@@ -263,6 +269,7 @@
 							<Item Name="Invert_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/CPLX_SGL/Invert_CPLX_SGL.lvclass"/>
 							<Item Name="Invert_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/CPLX_DBL/Invert_CPLX_DBL.lvclass"/>
 							<Item Name="Invert_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/CPLX_EXT/Invert_CPLX_EXT.lvclass"/>
+							<Item Name="Invert_WFM.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/WFM/Invert_WFM.lvclass"/>
 							<Item Name="Invert_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Invert/DBL/Invert_DBL.lvclass"/>
 						</Item>
 						<Item Name="Decrement" Type="Folder">
@@ -286,6 +293,7 @@
 							<Item Name="Divide_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/EXT/Divide_EXT.lvclass"/>
 							<Item Name="Divide_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/DBL/Divide_DBL.lvclass"/>
 							<Item Name="Divide_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/SGL/Divide_SGL.lvclass"/>
+							<Item Name="Divide_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/WFM_Numeric/Divide_WFM_Numeric.lvclass"/>
 							<Item Name="Divide_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/CPLX_EXT/Divide_CPLX_EXT.lvclass"/>
 							<Item Name="Divide_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/CPLX_SGL/Divide_CPLX_SGL.lvclass"/>
 							<Item Name="Divide_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Divide/CPLX_DBL/Divide_CPLX_DBL.lvclass"/>
@@ -302,6 +310,7 @@
 							<Item Name="Multiply_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/EXT/Multiply_EXT.lvclass"/>
 							<Item Name="Multiply_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/SGL/Multiply_SGL.lvclass"/>
 							<Item Name="Multiply_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/DBL/Multiply_DBL.lvclass"/>
+							<Item Name="Multiply_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/WFM_Numeric/Multiply_WFM_Numeric.lvclass"/>
 							<Item Name="Multiply_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/CPLX_EXT/Multiply_CPLX_EXT.lvclass"/>
 							<Item Name="Multiply_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/CPLX_SGL/Multiply_CPLX_SGL.lvclass"/>
 							<Item Name="Multiply_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Multiply/CPLX_DBL/Multiply_CPLX_DBL.lvclass"/>
@@ -320,6 +329,7 @@
 							<Item Name="Increment_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/CPLX_SGL/Increment_CPLX_SGL.lvclass"/>
 							<Item Name="Increment_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/CPLX_DBL/Increment_CPLX_DBL.lvclass"/>
 							<Item Name="Increment_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/CPLX_EXT/Increment_CPLX_EXT.lvclass"/>
+							<Item Name="Increment_WFM.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/WFM/Increment_WFM.lvclass"/>
 							<Item Name="Increment_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/DBL/Increment_DBL.lvclass"/>
 						</Item>
 						<Item Name="Reciprocal" Type="Folder">
@@ -525,6 +535,28 @@
 					<Item Name="Less Than Equal to 0.vi" Type="VI" URL="../Source/Functions/Compare/Less Than Equal to 0.vi"/>
 					<Item Name="Not Equal 0.vi" Type="VI" URL="../Source/Functions/Compare/Not Equal 0.vi"/>
 				</Item>
+				<Item Name="Conversion" Type="Folder">
+					<Item Name="Support" Type="Folder">
+						<Item Name="ConvertTo_Binary.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/Binary/ConvertTo_Binary.lvclass"/>
+						<Item Name="ConvertTo_String.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/String/ConvertTo_String.lvclass"/>
+						<Item Name="ConvertTo_JSON.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/JSON/ConvertTo_JSON.lvclass"/>
+						<Item Name="ConvertTo_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/CPLX_SGL/ConvertTo_CPLX_SGL.lvclass"/>
+						<Item Name="ConvertTo_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/CPLX_DBL/ConvertTo_CPLX_DBL.lvclass"/>
+						<Item Name="ConvertTo_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/CPLX_EXT/ConvertTo_CPLX_EXT.lvclass"/>
+						<Item Name="ConvertTo_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/SGL/ConvertTo_SGL.lvclass"/>
+						<Item Name="ConvertTo_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/DBL/ConvertTo_DBL.lvclass"/>
+						<Item Name="ConvertTo_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/EXT/ConvertTo_EXT.lvclass"/>
+						<Item Name="ConvertTo_U8.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/U8/ConvertTo_U8.lvclass"/>
+						<Item Name="ConvertTo_U16.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/U16/ConvertTo_U16.lvclass"/>
+						<Item Name="ConvertTo_U32.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/U32/ConvertTo_U32.lvclass"/>
+						<Item Name="ConvertTo_U64.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/U64/ConvertTo_U64.lvclass"/>
+						<Item Name="ConvertTo_I8.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/I8/ConvertTo_I8.lvclass"/>
+						<Item Name="ConvertTo_I16.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/I16/ConvertTo_I16.lvclass"/>
+						<Item Name="ConvertTo_I32.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/I32/ConvertTo_I32.lvclass"/>
+						<Item Name="ConvertTo_I64.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/I64/ConvertTo_I64.lvclass"/>
+					</Item>
+					<Item Name="Convert To.vi" Type="VI" URL="../Source/Functions/Conversion/Convert To.vi"/>
+				</Item>
 			</Item>
 			<Item Name="Abstract_Types" Type="Folder">
 				<Item Name="Collections" Type="Folder">
@@ -630,7 +662,10 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
