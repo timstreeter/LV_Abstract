@@ -3,6 +3,7 @@
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Variable.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../Variable.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Y!!!*Q(C=\&gt;8"43."%)8B.WA08*U"MJ!)I#Y&lt;A$09&gt;1K6ADH/U3H5H:-D1()+,Q7HY"2G`WE;;Z%Q2NJ&amp;='$':?T8U^W@?VK$V)ZL[9?G3]@^G]@\WS@/^P8&amp;G+_VN^?L\;XJ40_H\N.ULP`^]^$HWP`R^ZVLPX$I_`A_0P=9,W\3$^_TA_9(%77KK+2#]V34S5VO=J/&lt;X/2&amp;8O2&amp;8O2&amp;8O2*HO2*HO2*HO2"(O2"(O2"(O4N*"?ZS%5/S5RO*D+$GA(-R6"EXIT(?)T(?0AKYT%?YT%?Y_%3'9`R')`R'!`&gt;:$T'9TT'9TQ-V32O*TE?YW&amp;Y&amp;:\#5XA+4_&amp;B3B7?!F"-6AR=$!*$270RI@!5HM,$2R7?QF.Y#E`BI6G&amp;J`!5HM*4?/D36K7;:D\*]4#-%E`C34S**`%QN"*0YEE]C3@R-*U34_**%-G%S?!1F(2+,EC_**\%QR]FHM34?"*0YK'JX;&amp;M+T.LZJ-=4_!*0)%H]!1?BF$A#4S"*`!%(I:6Y!E]A3@Q""[G5O!*0)%HA!34-LW#Q9+/Q56"%(BYN&gt;U3\3Z6EU1\J&lt;ZZV4?F_G:4XU4KGU0^JKP@407&lt;J,\Y[IOKPFDKC[$_Y^42[BDV3&gt;1\TR@KS0O"WF-\;ENNK$7VIJ&lt;59O\[HS]](I][(!\;\`@;\8&lt;;&lt;L@;&lt;$:;L^&gt;;L6:;,J&gt;;,";HR]!.Z_G"]02='PH=[N&gt;0[H99@T]/Y^X$-.Y_$+=W[I0_FX[":[/O^0?YL.%@(,8(/1!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
