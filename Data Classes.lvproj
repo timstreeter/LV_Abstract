@@ -685,11 +685,25 @@
 			</Item>
 			<Item Name="Variables" Type="Folder">
 				<Item Name="Support" Type="Folder">
+					<Item Name="Var_U8.lvclass" Type="LVClass" URL="../Source/Variables/Support/U8/Var_U8.lvclass"/>
+					<Item Name="Var_U16.lvclass" Type="LVClass" URL="../Source/Variables/Support/U16/Var_U16.lvclass"/>
+					<Item Name="Var_U32.lvclass" Type="LVClass" URL="../Source/Variables/Support/U32/Var_U32.lvclass"/>
+					<Item Name="Var_U64.lvclass" Type="LVClass" URL="../Source/Variables/Support/U64/Var_U64.lvclass"/>
+					<Item Name="Var_I8.lvclass" Type="LVClass" URL="../Source/Variables/Support/I8/Var_I8.lvclass"/>
+					<Item Name="Var_I16.lvclass" Type="LVClass" URL="../Source/Variables/Support/I16/Var_I16.lvclass"/>
+					<Item Name="Var_I32.lvclass" Type="LVClass" URL="../Source/Variables/Support/I32/Var_I32.lvclass"/>
+					<Item Name="Var_I64.lvclass" Type="LVClass" URL="../Source/Variables/Support/I64/Var_I64.lvclass"/>
+					<Item Name="Var_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/SGL/Var_SGL.lvclass"/>
+					<Item Name="Var_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/EXT/Var_EXT.lvclass"/>
+					<Item Name="Var_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_SGL/Var_CPLX_SGL.lvclass"/>
+					<Item Name="Var_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_DBL/Var_CPLX_DBL.lvclass"/>
+					<Item Name="Var_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_EXT/Var_CPLX_EXT.lvclass"/>
+					<Item Name="Var_Bool.lvclass" Type="LVClass" URL="../Source/Variables/Support/Bool/Var_Bool.lvclass"/>
 					<Item Name="Var_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/DBL/Var_DBL.lvclass"/>
 				</Item>
+				<Item Name="Var_Write_Sim.vi" Type="VI" URL="../Source/Variables/Var_Write_Sim.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Var_Write_Sim.vi" Type="VI" URL="../Source/Variables/Var_Write_Sim.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
