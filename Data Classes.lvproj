@@ -39,12 +39,15 @@
 			<Item Name="Build Invert Numeric Functions.vi" Type="VI" URL="../Scripting/Build Invert Numeric Functions.vi"/>
 			<Item Name="Build Not Equal Compare Types.vi" Type="VI" URL="../Scripting/Build Not Equal Compare Types.vi"/>
 			<Item Name="Build Greater Equal Compare Types.vi" Type="VI" URL="../Scripting/Build Greater Equal Compare Types.vi"/>
+			<Item Name="Build Numeric Vars.vi" Type="VI" URL="../Scripting/Build Numeric Vars.vi"/>
 			<Item Name="Build Equal Compare Types.vi" Type="VI" URL="../Scripting/Build Equal Compare Types.vi"/>
 		</Item>
 		<Item Name="Unit Tests" Type="Folder">
 			<Item Name="Config" Type="Folder">
 				<Item Name="Binary" Type="Folder">
 					<Item Name="Support" Type="Folder">
+						<Item Name="Binary Config with Class String Type Single Terminal Vector.vim" Type="VI" URL="../Unit Tests/Config/Binary/Binary Config with Class String Type Single Terminal Vector.vim"/>
+						<Item Name="Binary Config with Class Boolean Type Single Terminal Vector.vim" Type="VI" URL="../Unit Tests/Config/Binary/Binary Config with Class Boolean Type Single Terminal Vector.vim"/>
 						<Item Name="Binary Config with Class Type Single Terminal Vector.vim" Type="VI" URL="../Unit Tests/Config/Binary/Binary Config with Class Type Single Terminal Vector.vim"/>
 						<Item Name="Binary Config With Single Term Class Unit Tests.vi" Type="VI" URL="../Unit Tests/Config/Binary/Binary Config With Single Term Class Unit Tests.vi"/>
 						<Item Name="Binary Config With Class Unit Tests.vi" Type="VI" URL="../Unit Tests/Config/Binary/Binary Config With Class Unit Tests.vi"/>
@@ -69,15 +72,16 @@
 				</Item>
 				<Item Name="Config Unit Tests.vi" Type="VI" URL="../Unit Tests/Config/Config Unit Tests.vi"/>
 			</Item>
+			<Item Name="Serialise" Type="Folder"/>
 			<Item Name="Unit Tests.vi" Type="VI" URL="../Unit Tests/Unit Tests.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
+			<Item Name="Test Binary Serialisation.vi" Type="VI" URL="../Test/Test Binary Serialisation.vi"/>
 			<Item Name="Test U16 Logic.vi" Type="VI" URL="../Test/Test U16 Logic.vi"/>
 			<Item Name="Test U8 Logic.vi" Type="VI" URL="../Test/Test U8 Logic.vi"/>
-			<Item Name="Test Array Add.vi" Type="VI" URL="../Test/Test Array Add.vi"/>
-			<Item Name="Test Iterate over Array Add.vi" Type="VI" URL="../Test/Test Iterate over Array Add.vi"/>
 			<Item Name="Test Math.vi" Type="VI" URL="../Test/Test Math.vi"/>
 			<Item Name="Test Boolean Logic.vi" Type="VI" URL="../Test/Test Boolean Logic.vi"/>
+			<Item Name="Test Binary Serialisation With Classes.vi" Type="VI" URL="../Test/Test Binary Serialisation With Classes.vi"/>
 			<Item Name="Test To and From Binary for Functions.vi" Type="VI" URL="../Test/Test To and From Binary for Functions.vi"/>
 			<Item Name="Test Divide.vi" Type="VI" URL="../Test/Test Divide.vi"/>
 			<Item Name="Test Constant Waveform Iterate Functions.vi" Type="VI" URL="../Test/Test Constant Waveform Iterate Functions.vi"/>
@@ -679,8 +683,13 @@
 					<Item Name="Abs_Function.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Abs_Function.lvclass"/>
 				</Item>
 			</Item>
+			<Item Name="Variables" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="Var_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/DBL/Var_DBL.lvclass"/>
+				</Item>
+			</Item>
 		</Item>
-		<Item Name="Variable.lvlib" Type="Library" URL="../Variable/Variable.lvlib"/>
+		<Item Name="Var_Write_Sim.vi" Type="VI" URL="../Source/Variables/Var_Write_Sim.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -833,8 +842,6 @@
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Binary Config with Class Boolean Type Single Terminal Vector.vim" Type="VI" URL="../Unit Tests/Config/Binary/Binary Config with Class Boolean Type Single Terminal Vector.vim"/>
-			<Item Name="Binary Config with Class String Type Single Terminal Vector.vim" Type="VI" URL="../Unit Tests/Config/Binary/Binary Config with Class String Type Single Terminal Vector.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
