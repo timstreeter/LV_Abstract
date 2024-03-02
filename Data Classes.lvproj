@@ -72,7 +72,12 @@
 				</Item>
 				<Item Name="Config Unit Tests.vi" Type="VI" URL="../Unit Tests/Config/Config Unit Tests.vi"/>
 			</Item>
-			<Item Name="Serialise" Type="Folder"/>
+			<Item Name="Serialise" Type="Folder">
+				<Item Name="Binary Serialise Unit Tests.vi" Type="VI" URL="../Unit Tests/Serialise/Binary/Binary Serialise Unit Tests.vi"/>
+				<Item Name="Binary Serialise String Vector.vi" Type="VI" URL="../Unit Tests/Serialise/Binary/Binary Serialise String Vector.vi"/>
+				<Item Name="Binary Serialise Complex DBL Vector.vi" Type="VI" URL="../Unit Tests/Serialise/Binary/Binary Serialise Complex DBL Vector.vi"/>
+				<Item Name="Binary Serialise Vector.vim" Type="VI" URL="../Unit Tests/Serialise/Binary/Binary Serialise Vector.vim"/>
+			</Item>
 			<Item Name="Unit Tests.vi" Type="VI" URL="../Unit Tests/Unit Tests.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
@@ -127,8 +132,10 @@
 							<Item Name="Abs_U32 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/U32 Integer/Abs_U32 Integer.lvclass"/>
 							<Item Name="Abs_U64 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/U64 Integer/Abs_U64 Integer.lvclass"/>
 						</Item>
+						<Item Name="Time" Type="Folder">
+							<Item Name="Abs_Time.lvclass" Type="LVClass" URL="../Source/Abs_Types/Time/Abs_Time.lvclass"/>
+						</Item>
 						<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="../Source/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
-						<Item Name="Abs_Time.lvclass" Type="LVClass" URL="../Source/Abs_Types/Time/Abs_Time.lvclass"/>
 					</Item>
 					<Item Name="String" Type="Folder">
 						<Item Name="Abs_String.lvclass" Type="LVClass" URL="../Source/Abs_Types/String/Abs_String.lvclass"/>
@@ -700,9 +707,14 @@
 					<Item Name="Var_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_EXT/Var_CPLX_EXT.lvclass"/>
 					<Item Name="Var_Bool.lvclass" Type="LVClass" URL="../Source/Variables/Support/Bool/Var_Bool.lvclass"/>
 					<Item Name="Var_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/DBL/Var_DBL.lvclass"/>
+					<Item Name="Var_Variant.lvclass" Type="LVClass" URL="../Source/Variables/Support/Variant/Var_Variant.lvclass"/>
+					<Item Name="Var_WFM.lvclass" Type="LVClass" URL="../Source/Variables/Support/WFM/Var_WFM.lvclass"/>
+					<Item Name="Var_Time.lvclass" Type="LVClass" URL="../Source/Variables/Support/Time/Var_Time.lvclass"/>
+					<Item Name="Var_Str.lvclass" Type="LVClass" URL="../Source/Variables/Support/STR/Var_Str.lvclass"/>
 				</Item>
-				<Item Name="Var_Write_Sim.vi" Type="VI" URL="../Source/Variables/Var_Write_Sim.vi"/>
+				<Item Name="Abs_Create_Variable.vi" Type="VI" URL="../Source/Variables/Abs_Create_Variable.vi"/>
 			</Item>
+			<Item Name="Abstract LV Class - Hierarchy.vi" Type="VI" URL="../Source/Abstract LV Class - Hierarchy.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
