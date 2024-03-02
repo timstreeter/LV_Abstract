@@ -24,15 +24,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Support" Type="Folder">
-		<Item Name="Create_Simple_Var.vi" Type="VI" URL="../Support/Create_Simple_Var.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#.!!!!"!!%!!!!(E"Q!"Y!!"%06G&amp;S8V.U=CZM&gt;G.M98.T!!.798)!-Q$R!!!!!!!!!!)06G&amp;S8V.U=CZM&gt;G.M98.T#&amp;2Z='5O9X2M!"*!-0````]&amp;6G&amp;M&gt;75!-!$Q!!9!!!!"!!!!!!!#!!!$!!"1!!!!!!!!#1!!!!!!!!!!!!!##!!!!!!!!!!!!1!$!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">41943056</Property>
-		</Item>
 		<Item Name="Type.ctl" Type="VI" URL="../Type.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!^!!!!!1!V!0%!!!!!!!!!!B&amp;$&lt;WZT&gt;&amp;^%1EQO&lt;(:D&lt;'&amp;T=QF$&lt;WZU=G^M)$%!%5!+!!&gt;/&gt;7VF=GFD!!%!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -60,5 +51,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">41943040</Property>
+	</Item>
+	<Item Name="Create_Simple_Var.vi" Type="VI" URL="../Support/Create_Simple_Var.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#.!!!!"!!%!!!!(E"Q!"Y!!"%06G&amp;S8V.U=CZM&gt;G.M98.T!!.798)!-Q$R!!!!!!!!!!)06G&amp;S8V.U=CZM&gt;G.M98.T#&amp;2Z='5O9X2M!"*!-0````]&amp;6G&amp;M&gt;75!-!$Q!!9!!!!"!!!!!!!#!!!$!!"1!!!!!!!!#1!!!!!!!!!!!!!##!!!!!!!!!!!!1!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">41943056</Property>
 	</Item>
 </LVClass>

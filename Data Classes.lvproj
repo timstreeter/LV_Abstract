@@ -152,33 +152,7 @@
 				<Item Name="Abs_Simple_Read.vi" Type="VI" URL="../Source/Abs_Types/Abs_Simple_Read.vi"/>
 				<Item Name="Abs_Type.lvclass" Type="LVClass" URL="../Source/Abs_Types/Type/Abs_Type.lvclass"/>
 				<Item Name="Abs_Write.vi" Type="VI" URL="../Source/Abs_Types/Abs_Write.vi"/>
-			</Item>
-			<Item Name="Constant" Type="Folder">
-				<Item Name="Support" Type="Folder">
-					<Item Name="Const_Bool.lvclass" Type="LVClass" URL="../Source/Constants/Support/Bool/Const_Bool.lvclass"/>
-					<Item Name="Const_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_DBL/Const_CPLX_DBL.lvclass"/>
-					<Item Name="Const_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_EXT/Const_CPLX_EXT.lvclass"/>
-					<Item Name="Const_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_SGL/Const_CPLX_SGL.lvclass"/>
-					<Item Name="Const_Current Time.lvclass" Type="LVClass" URL="../Source/Constants/Support/Curr_Time/Const_Current Time.lvclass"/>
-					<Item Name="Const_DBL.lvclass" Type="LVClass" URL="../Source/Constants/Support/DBL/Const_DBL.lvclass"/>
-					<Item Name="Const_EXT.lvclass" Type="LVClass" URL="../Source/Constants/Support/EXT/Const_EXT.lvclass"/>
-					<Item Name="Const_I8.lvclass" Type="LVClass" URL="../Source/Constants/Support/I8/Const_I8.lvclass"/>
-					<Item Name="Const_I16.lvclass" Type="LVClass" URL="../Source/Constants/Support/I16/Const_I16.lvclass"/>
-					<Item Name="Const_I32.lvclass" Type="LVClass" URL="../Source/Constants/Support/I32/Const_I32.lvclass"/>
-					<Item Name="Const_I64.lvclass" Type="LVClass" URL="../Source/Constants/Support/I64/Const_I64.lvclass"/>
-					<Item Name="Const_Intf.lvclass" Type="LVClass" URL="../Source/Constants/Support/Interface/Const_Intf.lvclass"/>
-					<Item Name="Const_SGL.lvclass" Type="LVClass" URL="../Source/Constants/Support/SGL/Const_SGL.lvclass"/>
-					<Item Name="Const_Str.lvclass" Type="LVClass" URL="../Source/Constants/Support/Str/Const_Str.lvclass"/>
-					<Item Name="Const_Time.lvclass" Type="LVClass" URL="../Source/Constants/Support/Time/Const_Time.lvclass"/>
-					<Item Name="Const_U8.lvclass" Type="LVClass" URL="../Source/Constants/Support/U8/Const_U8.lvclass"/>
-					<Item Name="Const_U16.lvclass" Type="LVClass" URL="../Source/Constants/Support/U16/Const_U16.lvclass"/>
-					<Item Name="Const_U32.lvclass" Type="LVClass" URL="../Source/Constants/Support/U32/Const_U32.lvclass"/>
-					<Item Name="Const_U64.lvclass" Type="LVClass" URL="../Source/Constants/Support/U64/Const_U64.lvclass"/>
-					<Item Name="Const_Variant.lvclass" Type="LVClass" URL="../Source/Constants/Support/Variant/Const_Variant.lvclass"/>
-					<Item Name="Const_WFM.lvclass" Type="LVClass" URL="../Source/Constants/Support/WFM/Const_WFM.lvclass"/>
-				</Item>
-				<Item Name="Abs_Constant.vi" Type="VI" URL="../Source/Constants/Abs_Constant.vi"/>
-				<Item Name="Abs_Current_Time.vi" Type="VI" URL="../Source/Constants/Abs_Current_Time.vi"/>
+				<Item Name="Abstract LV Class - Hierarchy.vi" Type="VI" URL="../Source/Abs_Types/Abstract LV Class - Hierarchy.vi"/>
 			</Item>
 			<Item Name="Functions" Type="Folder">
 				<Item Name="Compare" Type="Folder">
@@ -690,31 +664,60 @@
 					<Item Name="Abs_Function.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Abs_Function.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Variables" Type="Folder">
-				<Item Name="Support" Type="Folder">
-					<Item Name="Var_U8.lvclass" Type="LVClass" URL="../Source/Variables/Support/U8/Var_U8.lvclass"/>
-					<Item Name="Var_U16.lvclass" Type="LVClass" URL="../Source/Variables/Support/U16/Var_U16.lvclass"/>
-					<Item Name="Var_U32.lvclass" Type="LVClass" URL="../Source/Variables/Support/U32/Var_U32.lvclass"/>
-					<Item Name="Var_U64.lvclass" Type="LVClass" URL="../Source/Variables/Support/U64/Var_U64.lvclass"/>
-					<Item Name="Var_I8.lvclass" Type="LVClass" URL="../Source/Variables/Support/I8/Var_I8.lvclass"/>
-					<Item Name="Var_I16.lvclass" Type="LVClass" URL="../Source/Variables/Support/I16/Var_I16.lvclass"/>
-					<Item Name="Var_I32.lvclass" Type="LVClass" URL="../Source/Variables/Support/I32/Var_I32.lvclass"/>
-					<Item Name="Var_I64.lvclass" Type="LVClass" URL="../Source/Variables/Support/I64/Var_I64.lvclass"/>
-					<Item Name="Var_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/SGL/Var_SGL.lvclass"/>
-					<Item Name="Var_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/EXT/Var_EXT.lvclass"/>
-					<Item Name="Var_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_SGL/Var_CPLX_SGL.lvclass"/>
-					<Item Name="Var_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_DBL/Var_CPLX_DBL.lvclass"/>
-					<Item Name="Var_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_EXT/Var_CPLX_EXT.lvclass"/>
-					<Item Name="Var_Bool.lvclass" Type="LVClass" URL="../Source/Variables/Support/Bool/Var_Bool.lvclass"/>
-					<Item Name="Var_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/DBL/Var_DBL.lvclass"/>
-					<Item Name="Var_Variant.lvclass" Type="LVClass" URL="../Source/Variables/Support/Variant/Var_Variant.lvclass"/>
-					<Item Name="Var_WFM.lvclass" Type="LVClass" URL="../Source/Variables/Support/WFM/Var_WFM.lvclass"/>
-					<Item Name="Var_Time.lvclass" Type="LVClass" URL="../Source/Variables/Support/Time/Var_Time.lvclass"/>
-					<Item Name="Var_Str.lvclass" Type="LVClass" URL="../Source/Variables/Support/STR/Var_Str.lvclass"/>
+			<Item Name="Concrete_Values" Type="Folder">
+				<Item Name="Constant" Type="Folder">
+					<Item Name="Support" Type="Folder">
+						<Item Name="Const_Bool.lvclass" Type="LVClass" URL="../Source/Constants/Support/Bool/Const_Bool.lvclass"/>
+						<Item Name="Const_Str.lvclass" Type="LVClass" URL="../Source/Constants/Support/Str/Const_Str.lvclass"/>
+						<Item Name="Const_SGL.lvclass" Type="LVClass" URL="../Source/Constants/Support/SGL/Const_SGL.lvclass"/>
+						<Item Name="Const_DBL.lvclass" Type="LVClass" URL="../Source/Constants/Support/DBL/Const_DBL.lvclass"/>
+						<Item Name="Const_EXT.lvclass" Type="LVClass" URL="../Source/Constants/Support/EXT/Const_EXT.lvclass"/>
+						<Item Name="Const_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_SGL/Const_CPLX_SGL.lvclass"/>
+						<Item Name="Const_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_DBL/Const_CPLX_DBL.lvclass"/>
+						<Item Name="Const_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_EXT/Const_CPLX_EXT.lvclass"/>
+						<Item Name="Const_I8.lvclass" Type="LVClass" URL="../Source/Constants/Support/I8/Const_I8.lvclass"/>
+						<Item Name="Const_I16.lvclass" Type="LVClass" URL="../Source/Constants/Support/I16/Const_I16.lvclass"/>
+						<Item Name="Const_I32.lvclass" Type="LVClass" URL="../Source/Constants/Support/I32/Const_I32.lvclass"/>
+						<Item Name="Const_I64.lvclass" Type="LVClass" URL="../Source/Constants/Support/I64/Const_I64.lvclass"/>
+						<Item Name="Const_U8.lvclass" Type="LVClass" URL="../Source/Constants/Support/U8/Const_U8.lvclass"/>
+						<Item Name="Const_U16.lvclass" Type="LVClass" URL="../Source/Constants/Support/U16/Const_U16.lvclass"/>
+						<Item Name="Const_U32.lvclass" Type="LVClass" URL="../Source/Constants/Support/U32/Const_U32.lvclass"/>
+						<Item Name="Const_U64.lvclass" Type="LVClass" URL="../Source/Constants/Support/U64/Const_U64.lvclass"/>
+						<Item Name="Const_Time.lvclass" Type="LVClass" URL="../Source/Constants/Support/Time/Const_Time.lvclass"/>
+						<Item Name="Const_Current Time.lvclass" Type="LVClass" URL="../Source/Constants/Support/Curr_Time/Const_Current Time.lvclass"/>
+						<Item Name="Const_Variant.lvclass" Type="LVClass" URL="../Source/Constants/Support/Variant/Const_Variant.lvclass"/>
+						<Item Name="Const_WFM.lvclass" Type="LVClass" URL="../Source/Constants/Support/WFM/Const_WFM.lvclass"/>
+						<Item Name="Const_Intf.lvclass" Type="LVClass" URL="../Source/Constants/Support/Interface/Const_Intf.lvclass"/>
+					</Item>
+					<Item Name="Abs_Constant.vi" Type="VI" URL="../Source/Constants/Abs_Constant.vi"/>
+					<Item Name="Abs_Current_Time.vi" Type="VI" URL="../Source/Constants/Abs_Current_Time.vi"/>
 				</Item>
-				<Item Name="Abs_Create_Variable.vi" Type="VI" URL="../Source/Variables/Abs_Create_Variable.vi"/>
+				<Item Name="Variables" Type="Folder">
+					<Item Name="Support" Type="Folder">
+						<Item Name="Var_Bool.lvclass" Type="LVClass" URL="../Source/Variables/Support/Bool/Var_Bool.lvclass"/>
+						<Item Name="Var_Str.lvclass" Type="LVClass" URL="../Source/Variables/Support/STR/Var_Str.lvclass"/>
+						<Item Name="Var_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/SGL/Var_SGL.lvclass"/>
+						<Item Name="Var_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/DBL/Var_DBL.lvclass"/>
+						<Item Name="Var_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/EXT/Var_EXT.lvclass"/>
+						<Item Name="Var_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_SGL/Var_CPLX_SGL.lvclass"/>
+						<Item Name="Var_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_DBL/Var_CPLX_DBL.lvclass"/>
+						<Item Name="Var_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_EXT/Var_CPLX_EXT.lvclass"/>
+						<Item Name="Var_I8.lvclass" Type="LVClass" URL="../Source/Variables/Support/I8/Var_I8.lvclass"/>
+						<Item Name="Var_I16.lvclass" Type="LVClass" URL="../Source/Variables/Support/I16/Var_I16.lvclass"/>
+						<Item Name="Var_I32.lvclass" Type="LVClass" URL="../Source/Variables/Support/I32/Var_I32.lvclass"/>
+						<Item Name="Var_I64.lvclass" Type="LVClass" URL="../Source/Variables/Support/I64/Var_I64.lvclass"/>
+						<Item Name="Var_U8.lvclass" Type="LVClass" URL="../Source/Variables/Support/U8/Var_U8.lvclass"/>
+						<Item Name="Var_U16.lvclass" Type="LVClass" URL="../Source/Variables/Support/U16/Var_U16.lvclass"/>
+						<Item Name="Var_U32.lvclass" Type="LVClass" URL="../Source/Variables/Support/U32/Var_U32.lvclass"/>
+						<Item Name="Var_U64.lvclass" Type="LVClass" URL="../Source/Variables/Support/U64/Var_U64.lvclass"/>
+						<Item Name="Var_Time.lvclass" Type="LVClass" URL="../Source/Variables/Support/Time/Var_Time.lvclass"/>
+						<Item Name="Var_Variant.lvclass" Type="LVClass" URL="../Source/Variables/Support/Variant/Var_Variant.lvclass"/>
+						<Item Name="Var_WFM.lvclass" Type="LVClass" URL="../Source/Variables/Support/WFM/Var_WFM.lvclass"/>
+					</Item>
+					<Item Name="Abs_Init_Variable.vi" Type="VI" URL="../Source/Variables/Abs_Init_Variable.vi"/>
+				</Item>
+				<Item Name="Values_Hierarchy.vi" Type="VI" URL="../Source/Constants/Values_Hierarchy.vi"/>
 			</Item>
-			<Item Name="Abstract LV Class - Hierarchy.vi" Type="VI" URL="../Source/Abstract LV Class - Hierarchy.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
