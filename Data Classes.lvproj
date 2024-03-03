@@ -664,7 +664,7 @@
 					<Item Name="Abs_Function.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Abs_Function.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Concrete_Values" Type="Folder">
+			<Item Name="Values" Type="Folder">
 				<Item Name="Constant" Type="Folder">
 					<Item Name="Support" Type="Folder">
 						<Item Name="Const_Bool.lvclass" Type="LVClass" URL="../Source/Constants/Support/Bool/Const_Bool.lvclass"/>
@@ -718,6 +718,7 @@
 				</Item>
 				<Item Name="Values_Hierarchy.vi" Type="VI" URL="../Source/Constants/Values_Hierarchy.vi"/>
 			</Item>
+			<Item Name="API Tree.vi" Type="VI" URL="../Source/API Tree.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
