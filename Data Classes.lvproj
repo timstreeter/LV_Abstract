@@ -122,11 +122,11 @@
 							<Item Name="Abs_Single Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Single Float/Abs_Single Float.lvclass"/>
 						</Item>
 						<Item Name="Integer" Type="Folder">
-							<Item Name="Abs_Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/Integer/Abs_Integer.lvclass"/>
 							<Item Name="Abs_I8 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I8 Integer/Abs_I8 Integer.lvclass"/>
 							<Item Name="Abs_I16 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I16 Integer/Abs_I16 Integer.lvclass"/>
 							<Item Name="Abs_I32 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I32 Integer/Abs_I32 Integer.lvclass"/>
 							<Item Name="Abs_I64 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I64 Integer/Abs_I64 Integer.lvclass"/>
+							<Item Name="Abs_Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/Integer/Abs_Integer.lvclass"/>
 							<Item Name="Abs_U8 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/U8 Integer/Abs_U8 Integer.lvclass"/>
 							<Item Name="Abs_U16 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/U16 Integer/Abs_U16 Integer.lvclass"/>
 							<Item Name="Abs_U32 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/U32 Integer/Abs_U32 Integer.lvclass"/>
@@ -326,6 +326,8 @@
 							<Item Name="Greater Equal 0_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal 0/U64/Greater Equal 0_U64.lvclass"/>
 						</Item>
 					</Item>
+					<Item Name="Compare_One_Term_Heirarchy.vi" Type="VI" URL="../Source/Functions/Compare/Compare_One_Term_Heirarchy.vi"/>
+					<Item Name="Compare_Two_Term_Heirarchy.vi" Type="VI" URL="../Source/Functions/Compare/Compare_Two_Term_Heirarchy.vi"/>
 					<Item Name="Equal 0.vi" Type="VI" URL="../Source/Functions/Compare/Equal 0.vi"/>
 					<Item Name="Equal.vi" Type="VI" URL="../Source/Functions/Compare/Equal.vi"/>
 					<Item Name="Greater Than 0.vi" Type="VI" URL="../Source/Functions/Compare/Greater Than 0.vi"/>
@@ -359,6 +361,7 @@
 						<Item Name="ConvertTo_U32.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/U32/ConvertTo_U32.lvclass"/>
 						<Item Name="ConvertTo_U64.lvclass" Type="LVClass" URL="../Source/Functions/Conversion/Support/U64/ConvertTo_U64.lvclass"/>
 					</Item>
+					<Item Name="Conversion_API_Hierarchy.vi" Type="VI" URL="../Source/Functions/Conversion/Conversion_API_Hierarchy.vi"/>
 					<Item Name="Convert To.vi" Type="VI" URL="../Source/Functions/Conversion/Convert To.vi"/>
 				</Item>
 				<Item Name="Logic" Type="Folder">
@@ -444,6 +447,7 @@
 					<Item Name="AND.vi" Type="VI" URL="../Source/Functions/Logic/AND.vi"/>
 					<Item Name="EXNOR.vi" Type="VI" URL="../Source/Functions/Logic/EXNOR.vi"/>
 					<Item Name="EXOR.vi" Type="VI" URL="../Source/Functions/Logic/EXOR.vi"/>
+					<Item Name="Logic_API_Hierarchy.vi" Type="VI" URL="../Source/Functions/Logic/Logic_API_Hierarchy.vi"/>
 					<Item Name="NAND.vi" Type="VI" URL="../Source/Functions/Logic/NAND.vi"/>
 					<Item Name="NOR.vi" Type="VI" URL="../Source/Functions/Logic/NOR.vi"/>
 					<Item Name="NOT.vi" Type="VI" URL="../Source/Functions/Logic/NOT.vi"/>
@@ -506,11 +510,11 @@
 							<Item Name="Increment_I32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/I32/Increment_I32.lvclass"/>
 							<Item Name="Increment_I64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/I64/Increment_I64.lvclass"/>
 							<Item Name="Increment_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/SGL/Increment_SGL.lvclass"/>
+							<Item Name="Increment_Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/Time/Increment_Time.lvclass"/>
 							<Item Name="Increment_U8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/U8/Increment_U8.lvclass"/>
 							<Item Name="Increment_U16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/U16/Increment_U16.lvclass"/>
 							<Item Name="Increment_U32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/U32/Increment_U32.lvclass"/>
 							<Item Name="Increment_U64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/U64/Increment_U64.lvclass"/>
-							<Item Name="Increment_Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/Time/Increment_Time.lvclass"/>
 							<Item Name="Increment_WFM.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Increment/WFM/Increment_WFM.lvclass"/>
 						</Item>
 						<Item Name="Invert" Type="Folder">
@@ -553,7 +557,6 @@
 							<Item Name="Reciprocal_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Reciprocal/SGL/Reciprocal_SGL.lvclass"/>
 						</Item>
 						<Item Name="Subtract" Type="Folder">
-							<Item Name=".Subtract_I64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/I64/.Subtract_I64.lvclass"/>
 							<Item Name="Subtract_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/CPLX_DBL/Subtract_CPLX_DBL.lvclass"/>
 							<Item Name="Subtract_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/CPLX_EXT/Subtract_CPLX_EXT.lvclass"/>
 							<Item Name="Subtract_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/CPLX_SGL/Subtract_CPLX_SGL.lvclass"/>
@@ -562,6 +565,7 @@
 							<Item Name="Subtract_I8.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/I8/Subtract_I8.lvclass"/>
 							<Item Name="Subtract_I16.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/I16/Subtract_I16.lvclass"/>
 							<Item Name="Subtract_I32.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/I32/Subtract_I32.lvclass"/>
+							<Item Name="Subtract_I64.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/I64/Subtract_I64.lvclass"/>
 							<Item Name="Subtract_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/SGL/Subtract_SGL.lvclass"/>
 							<Item Name="Subtract_Time-Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/Time-Time/Subtract_Time-Time.lvclass"/>
 							<Item Name="Subtract_Time.lvclass" Type="LVClass" URL="../Source/Functions/Math/Support/Subtract/Time/Subtract_Time.lvclass"/>
@@ -575,8 +579,10 @@
 					<Item Name="Add.vi" Type="VI" URL="../Source/Functions/Math/Add.vi"/>
 					<Item Name="Decrement.vi" Type="VI" URL="../Source/Functions/Math/Decrement.vi"/>
 					<Item Name="Divide.vi" Type="VI" URL="../Source/Functions/Math/Divide.vi"/>
-					<Item Name="Increment.vi" Type="VI" URL="../Source/Functions/Math/Increment.vi"/>
 					<Item Name="Invert.vi" Type="VI" URL="../Source/Functions/Math/Invert.vi"/>
+					<Item Name="Increment.vi" Type="VI" URL="../Source/Functions/Math/Increment.vi"/>
+					<Item Name="Math_1_Term_API_Hierarchy.vi" Type="VI" URL="../Source/Functions/Math/Math_1_Term_API_Hierarchy.vi"/>
+					<Item Name="Math_2_Term_API_Hierarchy.vi" Type="VI" URL="../Source/Functions/Math/Math_2_Term_API_Hierarchy.vi"/>
 					<Item Name="Multiply.vi" Type="VI" URL="../Source/Functions/Math/Multiply.vi"/>
 					<Item Name="Reciprocal.vi" Type="VI" URL="../Source/Functions/Math/Reciprocal.vi"/>
 					<Item Name="Subtract.vi" Type="VI" URL="../Source/Functions/Math/Subtract.vi"/>
@@ -620,74 +626,79 @@
 							<Item Name="AbsComp_Two Term_U32.lvclass" Type="LVClass" URL="../Source/Functions/Support/Compare/Two Term/U32/AbsComp_Two Term_U32.lvclass"/>
 							<Item Name="AbsComp_Two Term_U64.lvclass" Type="LVClass" URL="../Source/Functions/Support/Compare/Two Term/U64/AbsComp_Two Term_U64.lvclass"/>
 						</Item>
+						<Item Name="Abstract_Function_to_Boolean_Hierarchy.vi" Type="VI" URL="../Source/Functions/Support/Compare/Abstract_Function_to_Boolean_Hierarchy.vi"/>
 					</Item>
-					<Item Name="One Term" Type="Folder">
-						<Item Name="AbsFunc_One Term_Bool.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/Boolean/AbsFunc_One Term_Bool.lvclass"/>
-						<Item Name="AbsFunc_One Term_Complex DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/Cmplx DBL/AbsFunc_One Term_Complex DBL.lvclass"/>
-						<Item Name="AbsFunc_One Term_Complex EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/Cmplx EXT/AbsFunc_One Term_Complex EXT.lvclass"/>
-						<Item Name="AbsFunc_One Term_Complex SGL.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/Cmplx SGL/AbsFunc_One Term_Complex SGL.lvclass"/>
-						<Item Name="AbsFunc_One Term_Time.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/Time/AbsFunc_One Term_Time.lvclass"/>
-						<Item Name="AbsFunc_One Term_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/DBL/AbsFunc_One Term_DBL.lvclass"/>
-						<Item Name="AbsFunc_One Term_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/EXT/AbsFunc_One Term_EXT.lvclass"/>
-						<Item Name="AbsFunc_One Term_I8.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/I8/AbsFunc_One Term_I8.lvclass"/>
-						<Item Name="AbsFunc_One Term_I16.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/I16/AbsFunc_One Term_I16.lvclass"/>
-						<Item Name="AbsFunc_One Term_I32.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/I32/AbsFunc_One Term_I32.lvclass"/>
-						<Item Name="AbsFunc_One Term_I64.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/I64/AbsFunc_One Term_I64.lvclass"/>
-						<Item Name="AbsFunc_One Term_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/SGL/AbsFunc_One Term_SGL.lvclass"/>
-						<Item Name="AbsFunc_One Term_U8.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/U8/AbsFunc_One Term_U8.lvclass"/>
-						<Item Name="AbsFunc_One Term_U16.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/U16/AbsFunc_One Term_U16.lvclass"/>
-						<Item Name="AbsFunc_One Term_U32.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/U32/AbsFunc_One Term_U32.lvclass"/>
-						<Item Name="AbsFunc_One Term_U64.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/U64/AbsFunc_One Term_U64.lvclass"/>
-						<Item Name="AbsFunc_One Term_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Support/One Terminal/WFM_Numeric/AbsFunc_One Term_WFM_Numeric.lvclass"/>
-					</Item>
-					<Item Name="Two Term" Type="Folder">
-						<Item Name="AbsFunc_Two Term_Bool.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/Boolean/AbsFunc_Two Term_Bool.lvclass"/>
-						<Item Name="AbsFunc_Two Term_Complex DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/Cmplx DBL/AbsFunc_Two Term_Complex DBL.lvclass"/>
-						<Item Name="AbsFunc_Two Term_Complex EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/Cmplx EXT/AbsFunc_Two Term_Complex EXT.lvclass"/>
-						<Item Name="AbsFunc_Two Term_Complex SGL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/Cmplx SGL/AbsFunc_Two Term_Complex SGL.lvclass"/>
-						<Item Name="AbsFunc_Two Term_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/DBL/AbsFunc_Two Term_DBL.lvclass"/>
-						<Item Name="AbsFunc_Two Term_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/EXT/AbsFunc_Two Term_EXT.lvclass"/>
-						<Item Name="AbsFunc_Two Term_I8.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/I8/AbsFunc_Two Term_I8.lvclass"/>
-						<Item Name="AbsFunc_Two Term_I16.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/I16/AbsFunc_Two Term_I16.lvclass"/>
-						<Item Name="AbsFunc_Two Term_I32.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/I32/AbsFunc_Two Term_I32.lvclass"/>
-						<Item Name="AbsFunc_Two Term_I64.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/I64/AbsFunc_Two Term_I64.lvclass"/>
-						<Item Name="AbsFunc_Two Term_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/SGL/AbsFunc_Two Term_SGL.lvclass"/>
-						<Item Name="AbsFunc_Two Term_Time.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/Time/AbsFunc_Two Term_Time.lvclass"/>
-						<Item Name="AbsFunc_Two Term_U8.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/U8/AbsFunc_Two Term_U8.lvclass"/>
-						<Item Name="AbsFunc_Two Term_U16.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/U16/AbsFunc_Two Term_U16.lvclass"/>
-						<Item Name="AbsFunc_Two Term_U32.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/U32/AbsFunc_Two Term_U32.lvclass"/>
-						<Item Name="AbsFunc_Two Term_U64.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/U64/AbsFunc_Two Term_U64.lvclass"/>
-						<Item Name="AbsFunc_Two Term_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Support/Two Terminal/WFM_Numeric/AbsFunc_Two Term_WFM_Numeric.lvclass"/>
+					<Item Name="Function" Type="Folder">
+						<Item Name="One Term" Type="Folder">
+							<Item Name="AbsFunc_One Term_Bool.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/Boolean/AbsFunc_One Term_Bool.lvclass"/>
+							<Item Name="AbsFunc_One Term_Complex DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/Cmplx DBL/AbsFunc_One Term_Complex DBL.lvclass"/>
+							<Item Name="AbsFunc_One Term_Complex EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/Cmplx EXT/AbsFunc_One Term_Complex EXT.lvclass"/>
+							<Item Name="AbsFunc_One Term_Complex SGL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/Cmplx SGL/AbsFunc_One Term_Complex SGL.lvclass"/>
+							<Item Name="AbsFunc_One Term_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/DBL/AbsFunc_One Term_DBL.lvclass"/>
+							<Item Name="AbsFunc_One Term_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/EXT/AbsFunc_One Term_EXT.lvclass"/>
+							<Item Name="AbsFunc_One Term_I8.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/I8/AbsFunc_One Term_I8.lvclass"/>
+							<Item Name="AbsFunc_One Term_I16.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/I16/AbsFunc_One Term_I16.lvclass"/>
+							<Item Name="AbsFunc_One Term_I32.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/I32/AbsFunc_One Term_I32.lvclass"/>
+							<Item Name="AbsFunc_One Term_I64.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/I64/AbsFunc_One Term_I64.lvclass"/>
+							<Item Name="AbsFunc_One Term_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/SGL/AbsFunc_One Term_SGL.lvclass"/>
+							<Item Name="AbsFunc_One Term_STR.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/STR/AbsFunc_One Term_STR.lvclass"/>
+							<Item Name="AbsFunc_One Term_Time.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/Time/AbsFunc_One Term_Time.lvclass"/>
+							<Item Name="AbsFunc_One Term_U8.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/U8/AbsFunc_One Term_U8.lvclass"/>
+							<Item Name="AbsFunc_One Term_U16.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/U16/AbsFunc_One Term_U16.lvclass"/>
+							<Item Name="AbsFunc_One Term_U32.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/U32/AbsFunc_One Term_U32.lvclass"/>
+							<Item Name="AbsFunc_One Term_U64.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/U64/AbsFunc_One Term_U64.lvclass"/>
+							<Item Name="AbsFunc_One Term_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/One Terminal/WFM_Numeric/AbsFunc_One Term_WFM_Numeric.lvclass"/>
+						</Item>
+						<Item Name="Two Term" Type="Folder">
+							<Item Name="AbsFunc_Two Term_Bool.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/Boolean/AbsFunc_Two Term_Bool.lvclass"/>
+							<Item Name="AbsFunc_Two Term_Complex DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx DBL/AbsFunc_Two Term_Complex DBL.lvclass"/>
+							<Item Name="AbsFunc_Two Term_Complex EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx EXT/AbsFunc_Two Term_Complex EXT.lvclass"/>
+							<Item Name="AbsFunc_Two Term_Complex SGL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx SGL/AbsFunc_Two Term_Complex SGL.lvclass"/>
+							<Item Name="AbsFunc_Two Term_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/DBL/AbsFunc_Two Term_DBL.lvclass"/>
+							<Item Name="AbsFunc_Two Term_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/EXT/AbsFunc_Two Term_EXT.lvclass"/>
+							<Item Name="AbsFunc_Two Term_I8.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/I8/AbsFunc_Two Term_I8.lvclass"/>
+							<Item Name="AbsFunc_Two Term_I16.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/I16/AbsFunc_Two Term_I16.lvclass"/>
+							<Item Name="AbsFunc_Two Term_I32.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/I32/AbsFunc_Two Term_I32.lvclass"/>
+							<Item Name="AbsFunc_Two Term_I64.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/I64/AbsFunc_Two Term_I64.lvclass"/>
+							<Item Name="AbsFunc_Two Term_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/SGL/AbsFunc_Two Term_SGL.lvclass"/>
+							<Item Name="AbsFunc_Two Term_STR.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/STR/AbsFunc_Two Term_STR.lvclass"/>
+							<Item Name="AbsFunc_Two Term_Time.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/Time/AbsFunc_Two Term_Time.lvclass"/>
+							<Item Name="AbsFunc_Two Term_U8.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/U8/AbsFunc_Two Term_U8.lvclass"/>
+							<Item Name="AbsFunc_Two Term_U16.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/U16/AbsFunc_Two Term_U16.lvclass"/>
+							<Item Name="AbsFunc_Two Term_U32.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/U32/AbsFunc_Two Term_U32.lvclass"/>
+							<Item Name="AbsFunc_Two Term_U64.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/U64/AbsFunc_Two Term_U64.lvclass"/>
+							<Item Name="AbsFunc_Two Term_WFM_Numeric.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Two Terminal/WFM_Numeric/AbsFunc_Two Term_WFM_Numeric.lvclass"/>
+						</Item>
+						<Item Name="Abstract_Function_Hierarchy.vi" Type="VI" URL="../Source/Functions/Support/Function/Abstract_Function_Hierarchy.vi"/>
 					</Item>
 					<Item Name="_Add Array of JSON Objects to JSON.vi" Type="VI" URL="../Source/Functions/Support/_Add Array of JSON Objects to JSON.vi"/>
 					<Item Name="_Find Array of JSON Objects in JSON.vi" Type="VI" URL="../Source/Functions/Support/_Find Array of JSON Objects in JSON.vi"/>
-					<Item Name="Abs_Function.lvclass" Type="LVClass" URL="../Source/Functions/Support/Function/Abs_Function.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Values" Type="Folder">
 				<Item Name="Constant" Type="Folder">
 					<Item Name="Support" Type="Folder">
 						<Item Name="Const_Bool.lvclass" Type="LVClass" URL="../Source/Constants/Support/Bool/Const_Bool.lvclass"/>
-						<Item Name="Const_Str.lvclass" Type="LVClass" URL="../Source/Constants/Support/Str/Const_Str.lvclass"/>
-						<Item Name="Const_SGL.lvclass" Type="LVClass" URL="../Source/Constants/Support/SGL/Const_SGL.lvclass"/>
-						<Item Name="Const_DBL.lvclass" Type="LVClass" URL="../Source/Constants/Support/DBL/Const_DBL.lvclass"/>
-						<Item Name="Const_EXT.lvclass" Type="LVClass" URL="../Source/Constants/Support/EXT/Const_EXT.lvclass"/>
-						<Item Name="Const_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_SGL/Const_CPLX_SGL.lvclass"/>
 						<Item Name="Const_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_DBL/Const_CPLX_DBL.lvclass"/>
 						<Item Name="Const_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_EXT/Const_CPLX_EXT.lvclass"/>
+						<Item Name="Const_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_SGL/Const_CPLX_SGL.lvclass"/>
+						<Item Name="Const_Current Time.lvclass" Type="LVClass" URL="../Source/Constants/Support/Curr_Time/Const_Current Time.lvclass"/>
+						<Item Name="Const_DBL.lvclass" Type="LVClass" URL="../Source/Constants/Support/DBL/Const_DBL.lvclass"/>
+						<Item Name="Const_EXT.lvclass" Type="LVClass" URL="../Source/Constants/Support/EXT/Const_EXT.lvclass"/>
 						<Item Name="Const_I8.lvclass" Type="LVClass" URL="../Source/Constants/Support/I8/Const_I8.lvclass"/>
 						<Item Name="Const_I16.lvclass" Type="LVClass" URL="../Source/Constants/Support/I16/Const_I16.lvclass"/>
 						<Item Name="Const_I32.lvclass" Type="LVClass" URL="../Source/Constants/Support/I32/Const_I32.lvclass"/>
 						<Item Name="Const_I64.lvclass" Type="LVClass" URL="../Source/Constants/Support/I64/Const_I64.lvclass"/>
+						<Item Name="Const_Intf.lvclass" Type="LVClass" URL="../Source/Constants/Support/Interface/Const_Intf.lvclass"/>
+						<Item Name="Const_SGL.lvclass" Type="LVClass" URL="../Source/Constants/Support/SGL/Const_SGL.lvclass"/>
+						<Item Name="Const_Str.lvclass" Type="LVClass" URL="../Source/Constants/Support/Str/Const_Str.lvclass"/>
+						<Item Name="Const_Time.lvclass" Type="LVClass" URL="../Source/Constants/Support/Time/Const_Time.lvclass"/>
 						<Item Name="Const_U8.lvclass" Type="LVClass" URL="../Source/Constants/Support/U8/Const_U8.lvclass"/>
 						<Item Name="Const_U16.lvclass" Type="LVClass" URL="../Source/Constants/Support/U16/Const_U16.lvclass"/>
 						<Item Name="Const_U32.lvclass" Type="LVClass" URL="../Source/Constants/Support/U32/Const_U32.lvclass"/>
 						<Item Name="Const_U64.lvclass" Type="LVClass" URL="../Source/Constants/Support/U64/Const_U64.lvclass"/>
-						<Item Name="Const_Time.lvclass" Type="LVClass" URL="../Source/Constants/Support/Time/Const_Time.lvclass"/>
-						<Item Name="Const_Current Time.lvclass" Type="LVClass" URL="../Source/Constants/Support/Curr_Time/Const_Current Time.lvclass"/>
 						<Item Name="Const_Variant.lvclass" Type="LVClass" URL="../Source/Constants/Support/Variant/Const_Variant.lvclass"/>
 						<Item Name="Const_WFM.lvclass" Type="LVClass" URL="../Source/Constants/Support/WFM/Const_WFM.lvclass"/>
-						<Item Name="Const_Intf.lvclass" Type="LVClass" URL="../Source/Constants/Support/Interface/Const_Intf.lvclass"/>
 					</Item>
 					<Item Name="Abs_Constant.vi" Type="VI" URL="../Source/Constants/Abs_Constant.vi"/>
 					<Item Name="Abs_Current_Time.vi" Type="VI" URL="../Source/Constants/Abs_Current_Time.vi"/>
@@ -695,27 +706,27 @@
 				<Item Name="Variables" Type="Folder">
 					<Item Name="Support" Type="Folder">
 						<Item Name="Var_Bool.lvclass" Type="LVClass" URL="../Source/Variables/Support/Bool/Var_Bool.lvclass"/>
-						<Item Name="Var_Str.lvclass" Type="LVClass" URL="../Source/Variables/Support/STR/Var_Str.lvclass"/>
-						<Item Name="Var_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/SGL/Var_SGL.lvclass"/>
-						<Item Name="Var_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/DBL/Var_DBL.lvclass"/>
-						<Item Name="Var_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/EXT/Var_EXT.lvclass"/>
-						<Item Name="Var_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_SGL/Var_CPLX_SGL.lvclass"/>
 						<Item Name="Var_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_DBL/Var_CPLX_DBL.lvclass"/>
 						<Item Name="Var_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_EXT/Var_CPLX_EXT.lvclass"/>
+						<Item Name="Var_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/CPLX_SGL/Var_CPLX_SGL.lvclass"/>
+						<Item Name="Var_DBL.lvclass" Type="LVClass" URL="../Source/Variables/Support/DBL/Var_DBL.lvclass"/>
+						<Item Name="Var_EXT.lvclass" Type="LVClass" URL="../Source/Variables/Support/EXT/Var_EXT.lvclass"/>
 						<Item Name="Var_I8.lvclass" Type="LVClass" URL="../Source/Variables/Support/I8/Var_I8.lvclass"/>
 						<Item Name="Var_I16.lvclass" Type="LVClass" URL="../Source/Variables/Support/I16/Var_I16.lvclass"/>
 						<Item Name="Var_I32.lvclass" Type="LVClass" URL="../Source/Variables/Support/I32/Var_I32.lvclass"/>
 						<Item Name="Var_I64.lvclass" Type="LVClass" URL="../Source/Variables/Support/I64/Var_I64.lvclass"/>
+						<Item Name="Var_SGL.lvclass" Type="LVClass" URL="../Source/Variables/Support/SGL/Var_SGL.lvclass"/>
+						<Item Name="Var_Str.lvclass" Type="LVClass" URL="../Source/Variables/Support/STR/Var_Str.lvclass"/>
+						<Item Name="Var_Time.lvclass" Type="LVClass" URL="../Source/Variables/Support/Time/Var_Time.lvclass"/>
 						<Item Name="Var_U8.lvclass" Type="LVClass" URL="../Source/Variables/Support/U8/Var_U8.lvclass"/>
 						<Item Name="Var_U16.lvclass" Type="LVClass" URL="../Source/Variables/Support/U16/Var_U16.lvclass"/>
 						<Item Name="Var_U32.lvclass" Type="LVClass" URL="../Source/Variables/Support/U32/Var_U32.lvclass"/>
 						<Item Name="Var_U64.lvclass" Type="LVClass" URL="../Source/Variables/Support/U64/Var_U64.lvclass"/>
-						<Item Name="Var_Time.lvclass" Type="LVClass" URL="../Source/Variables/Support/Time/Var_Time.lvclass"/>
 						<Item Name="Var_Variant.lvclass" Type="LVClass" URL="../Source/Variables/Support/Variant/Var_Variant.lvclass"/>
 						<Item Name="Var_WFM.lvclass" Type="LVClass" URL="../Source/Variables/Support/WFM/Var_WFM.lvclass"/>
 					</Item>
-					<Item Name="Abs_Init_Variable.vi" Type="VI" URL="../Source/Variables/Abs_Init_Variable.vi"/>
 				</Item>
+				<Item Name="Abs_Init_Variable.vi" Type="VI" URL="../Source/Variables/Abs_Init_Variable.vi"/>
 				<Item Name="Values_Hierarchy.vi" Type="VI" URL="../Source/Constants/Values_Hierarchy.vi"/>
 			</Item>
 			<Item Name="API Tree.vi" Type="VI" URL="../Source/API Tree.vi"/>
