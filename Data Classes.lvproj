@@ -157,7 +157,26 @@
 			<Item Name="Functions" Type="Folder">
 				<Item Name="Compare" Type="Folder">
 					<Item Name="Support" Type="Folder">
+						<Item Name="==" Type="Folder">
+							<Item Name="Equal_STR.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/STR/Equal_STR.lvclass"/>
+							<Item Name="Equal_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/CPLX_DBL/Equal_CPLX_DBL.lvclass"/>
+							<Item Name="Equal_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/CPLX_EXT/Equal_CPLX_EXT.lvclass"/>
+							<Item Name="Equal_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/CPLX_SGL/Equal_CPLX_SGL.lvclass"/>
+							<Item Name="Equal_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/DBL/Equal_DBL.lvclass"/>
+							<Item Name="Equal_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/EXT/Equal_EXT.lvclass"/>
+							<Item Name="Equal_I8.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/I8/Equal_I8.lvclass"/>
+							<Item Name="Equal_I16.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/I16/Equal_I16.lvclass"/>
+							<Item Name="Equal_I32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/I32/Equal_I32.lvclass"/>
+							<Item Name="Equal_I64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/I64/Equal_I64.lvclass"/>
+							<Item Name="Equal_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/SGL/Equal_SGL.lvclass"/>
+							<Item Name="Equal_U8.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/U8/Equal_U8.lvclass"/>
+							<Item Name="Equal_U16.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/U16/Equal_U16.lvclass"/>
+							<Item Name="Equal_U32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/U32/Equal_U32.lvclass"/>
+							<Item Name="Equal_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/U64/Equal_U64.lvclass"/>
+							<Item Name="Equal_Time.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/Time/Equal_Time.lvclass"/>
+						</Item>
 						<Item Name="!=" Type="Folder">
+							<Item Name="Not Equal_STR.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal/STR/Not Equal_STR.lvclass"/>
 							<Item Name="Not Equal_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal/CPLX_DBL/Not Equal_CPLX_DBL.lvclass"/>
 							<Item Name="Not Equal_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal/CPLX_EXT/Not Equal_CPLX_EXT.lvclass"/>
 							<Item Name="Not Equal_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal/CPLX_SGL/Not Equal_CPLX_SGL.lvclass"/>
@@ -172,6 +191,7 @@
 							<Item Name="Not Equal_U16.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal/U16/Not Equal_U16.lvclass"/>
 							<Item Name="Not Equal_U32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal/U32/Not Equal_U32.lvclass"/>
 							<Item Name="Not Equal_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal/U64/Not Equal_U64.lvclass"/>
+							<Item Name="Not Equal_Time.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal/Time/Not Equal_Time.lvclass"/>
 						</Item>
 						<Item Name="!=0" Type="Folder">
 							<Item Name="Not Equal 0_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Not Equal 0/CPLX_DBL/Not Equal 0_CPLX_DBL.lvclass"/>
@@ -201,6 +221,7 @@
 							<Item Name="Less_U16.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/U16/Less_U16.lvclass"/>
 							<Item Name="Less_U32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/U32/Less_U32.lvclass"/>
 							<Item Name="Less_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/U64/Less_U64.lvclass"/>
+							<Item Name="Less_Time.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less/Time/Less_Time.lvclass"/>
 						</Item>
 						<Item Name="&lt;0" Type="Folder">
 							<Item Name="Less 0_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less 0/DBL/Less 0_DBL.lvclass"/>
@@ -227,6 +248,7 @@
 							<Item Name="Less Equal_U16.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/U16/Less Equal_U16.lvclass"/>
 							<Item Name="Less Equal_U32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/U32/Less Equal_U32.lvclass"/>
 							<Item Name="Less Equal_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/U64/Less Equal_U64.lvclass"/>
+							<Item Name="Less Equal_Time.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Less Equal/Time/Less Equal_Time.lvclass"/>
 						</Item>
 						<Item Name="&lt;=0" Type="Folder">
 							<Item Name="Lesser Equal 0_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Lesser Equal 0/DBL/Lesser Equal 0_DBL.lvclass"/>
@@ -257,22 +279,6 @@
 							<Item Name="Equal 0_U32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal 0/U32/Equal 0_U32.lvclass"/>
 							<Item Name="Equal 0_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal 0/U64/Equal 0_U64.lvclass"/>
 						</Item>
-						<Item Name="==" Type="Folder">
-							<Item Name="Equal_CPLX_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/CPLX_DBL/Equal_CPLX_DBL.lvclass"/>
-							<Item Name="Equal_CPLX_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/CPLX_EXT/Equal_CPLX_EXT.lvclass"/>
-							<Item Name="Equal_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/CPLX_SGL/Equal_CPLX_SGL.lvclass"/>
-							<Item Name="Equal_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/DBL/Equal_DBL.lvclass"/>
-							<Item Name="Equal_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/EXT/Equal_EXT.lvclass"/>
-							<Item Name="Equal_I8.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/I8/Equal_I8.lvclass"/>
-							<Item Name="Equal_I16.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/I16/Equal_I16.lvclass"/>
-							<Item Name="Equal_I32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/I32/Equal_I32.lvclass"/>
-							<Item Name="Equal_I64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/I64/Equal_I64.lvclass"/>
-							<Item Name="Equal_SGL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/SGL/Equal_SGL.lvclass"/>
-							<Item Name="Equal_U8.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/U8/Equal_U8.lvclass"/>
-							<Item Name="Equal_U16.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/U16/Equal_U16.lvclass"/>
-							<Item Name="Equal_U32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/U32/Equal_U32.lvclass"/>
-							<Item Name="Equal_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Equal/U64/Equal_U64.lvclass"/>
-						</Item>
 						<Item Name="&gt;" Type="Folder">
 							<Item Name="Greater_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/DBL/Greater_DBL.lvclass"/>
 							<Item Name="Greater_EXT.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/EXT/Greater_EXT.lvclass"/>
@@ -285,6 +291,7 @@
 							<Item Name="Greater_U16.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/U16/Greater_U16.lvclass"/>
 							<Item Name="Greater_U32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/U32/Greater_U32.lvclass"/>
 							<Item Name="Greater_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/U64/Greater_U64.lvclass"/>
+							<Item Name="Greater_Time.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater/Time/Greater_Time.lvclass"/>
 						</Item>
 						<Item Name="&gt;0" Type="Folder">
 							<Item Name="Greater 0_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater 0/DBL/Greater 0_DBL.lvclass"/>
@@ -311,6 +318,7 @@
 							<Item Name="Greater Equal_U16.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/U16/Greater Equal_U16.lvclass"/>
 							<Item Name="Greater Equal_U32.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/U32/Greater Equal_U32.lvclass"/>
 							<Item Name="Greater Equal_U64.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/U64/Greater Equal_U64.lvclass"/>
+							<Item Name="Greater Equal_Time.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal/Time/Greater Equal_Time.lvclass"/>
 						</Item>
 						<Item Name="&gt;=0" Type="Folder">
 							<Item Name="Greater Equal 0_DBL.lvclass" Type="LVClass" URL="../Source/Functions/Compare/Support/Greater Equal 0/DBL/Greater Equal 0_DBL.lvclass"/>
