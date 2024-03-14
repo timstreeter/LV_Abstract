@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-30 10:45:09" Modified_Date="2024-03-10 15:10:15" Creator="Tim" Comments="" ID="ffe6c5414e81c87d7b79017bd57ad30d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-30 10:45:09" Modified_Date="2024-03-15 05:24:19" Creator="Tim" Comments="" ID="9936b7c57347b57b466f4926be952de9">
   <Library_General_Settings>
     <Package_File_Name>TSA_lib_Abstract_Data_Classes</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -261,7 +261,7 @@
         <Path>Source\API Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14F726D82DCCE335DF8ED3853D557048</GUID>
+      <GUID>FDF3B71A87DBB8F19C516E1004AECE19</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -366,7 +366,7 @@
         <Path>Source\Abs_Types\Numeric</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2D5B7E6A4344DACE3C36E16F2043D87</GUID>
+      <GUID>4DCAD26361992EF4389B4220FE5CD5F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -443,7 +443,7 @@
         <Path>Source\Convert</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>680163A8EF7F26076F4796D84E15ECCF</GUID>
+      <GUID>7F621AACD8B83DD16E2C1F7392F68A70</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -660,7 +660,7 @@
         <Path>Source\Abs_Types\Numeric\U8 Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1377FFC86B5A1F7AC7E3C173850EAFE9</GUID>
+      <GUID>7D84A54E56BE29EBDBAD745EFA9646C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -779,7 +779,7 @@
         <Path>Source\Abs_Types\Value\Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>82C69078FAC0DF98013517994D337891</GUID>
+      <GUID>789FF785996EA237349E2E44A60302A1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -996,7 +996,7 @@
         <Path>Source\Functions\Compare\Compare_Two_Term_Heirarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE14E96393A40B3C9B0FA0888C8A7392</GUID>
+      <GUID>C808EFB48DF6C45BA26BB53A23318F82</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1129,7 +1129,7 @@
         <Path>Source\Functions\Logic\Logic_API_Hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8B496294DB88A2C2A455339579688AF</GUID>
+      <GUID>CC203C949B7E43FBA61BCC6C0D20FEBC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1290,7 +1290,7 @@
         <Path>Source\Functions\Math\Math_2_Term_API_Hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0246CE74252CED32667996663665D449</GUID>
+      <GUID>07BBD68322881DA30747E84E5A3CA1BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1339,7 +1339,7 @@
         <Path>Source\Functions\Conversion\Conversion_API_Hierarchy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D44F1E5D10E59ACFBEDCDCB98FB667F3</GUID>
+      <GUID>3E2D5C5E9C891152EA188B6FB6C193FC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1402,7 +1402,7 @@
         <Path>Source\Variable</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5182F14A4347CA6D4F47C53315AE7115</GUID>
+      <GUID>C85C7BB3008FBDED1470C2F146B15575</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1451,7 +1451,7 @@
         <Path>Source\Constants\Abs_Current_Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22E6815D51FE8BCC2134F6B0D619C0D4</GUID>
+      <GUID>8B2860C01D2EFED4952E5DEE42E9EE7E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1486,7 +1486,7 @@
         <Path>Source\Variables\Abs_Init_Variable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4F05ED8526C0538F182C3B8D594F2BC</GUID>
+      <GUID>8E221D5D8E1198B8B84A13C478EF0D54</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1521,7 +1521,7 @@
         <Path>Source\Abs_Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>773BCEA9FEC04F4D0A62B1B5AD05F1BE</GUID>
+      <GUID>2A5E5870CFDBF3D132A53132612A4275</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1766,7 +1766,7 @@
         <Path>Source\Abs_Types\U8 Integer</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>170E01CA8C122BFE51A5F495EDFB3956</GUID>
+      <GUID>615FE5E7AE01F8CF92E5BB7DDA1E88B4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1801,7 +1801,7 @@
         <Path>Source\Abs_Types\Collections\Vectors</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA846760D92CE6F28FC1488D44DBBE48</GUID>
+      <GUID>6654B7109CD6B021CBCD523B91C2F2B0</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1836,7 +1836,7 @@
         <Path>Source\Abs_Types\Complex Double Float\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>36C78B9726E81394309F6B6F30975019</GUID>
+      <GUID>9E2E6CB73A1AC6F6EDBA239D73EAAFE9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1871,7 +1871,7 @@
         <Path>Source\Abs_Types\Complex Extended Float\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BA327F147285E6B971F4D63647EC74B</GUID>
+      <GUID>EE882D4B87B6C9280484B28420CBB3C2</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1906,7 +1906,7 @@
         <Path>Source\Abs_Types\Complex Single Float\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>669768BD7E2CE90AB9EFB2B40865D004</GUID>
+      <GUID>134D4FB45BB1819FAB63D33CAF0FE358</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1941,7 +1941,7 @@
         <Path>Source\Abs_Types\Double Float\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3F428075DB5FC0C29C04C345E2A9A98</GUID>
+      <GUID>E11E631DA0B396C257BEEEDB2184BEDA</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1976,7 +1976,7 @@
         <Path>Source\Abs_Types\Extended Float\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96D61467ADBEAB028197A70FF1FCAA81</GUID>
+      <GUID>2157B3CB0AC9DE985B46BF225C294797</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2011,7 +2011,7 @@
         <Path>Source\Abs_Types\I16 Integer\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B8A4BAB72AC9800EB5D5CCA734D3F6FB</GUID>
+      <GUID>8D05040EF9BFE1A7F81D00CADC212083</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2046,7 +2046,7 @@
         <Path>Source\Abs_Types\I32 Integer\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB60323ABC78526A0E005FBED68A4DE4</GUID>
+      <GUID>E2A9FF33339E2D326AB343592B5C0D3B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2081,7 +2081,7 @@
         <Path>Source\Abs_Types\I64 Integer\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49AED7F6C181E9B691DC67B852C31E2B</GUID>
+      <GUID>A3D7A1F022256873A32BA3B4F6891E4B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2116,7 +2116,7 @@
         <Path>Source\Abs_Types\I8 Integer\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B36CD0902F43C565F86ACF3D3449B34C</GUID>
+      <GUID>FADF27579EEBF374D835A2A949108815</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2151,7 +2151,7 @@
         <Path>Source\Abs_Types\Single Float\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8D533EB7937BD794AF81D0618F88951</GUID>
+      <GUID>605E24F8B7DD894098D063EB749639C3</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2186,7 +2186,7 @@
         <Path>Source\Abs_Types\Time\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9252AA048652BE34D7D0D06BE09F92AF</GUID>
+      <GUID>E8DEA5BF45620A3FCD626FC5E38C9F87</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2221,7 +2221,7 @@
         <Path>Source\Abs_Types\U16 Integer\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1A2CD71D5FE58C9D84D1930F8FD68A90</GUID>
+      <GUID>5D4155DAF14FB3A49CEC16F77AEB662A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2256,7 +2256,7 @@
         <Path>Source\Abs_Types\U32 Integer\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A8A80ED72C5D2FDDC1C41EF6C2EF39A</GUID>
+      <GUID>1F47DE2CB4729428D4C6664470343DB7</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2291,7 +2291,7 @@
         <Path>Source\Abs_Types\U64 Integer\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>58DA2F040FC1411EC83BFAC91F66D6A6</GUID>
+      <GUID>DB78FE8393BB807EC83E660303DD0049</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2326,7 +2326,7 @@
         <Path>Source\Abs_Types\U8 Integer\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2BCC220341654718638E62B96D961E1</GUID>
+      <GUID>DDE1539E619ACC5284467B9DF21E31AF</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2361,7 +2361,7 @@
         <Path>Source\Abs_Types\Collections\Vectors\Vector</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B9169898BE04979AFFD83227DE297992</GUID>
+      <GUID>FDB4BC80DD97D760E6681A17431AE1E2</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>18</Parent_Palette_Index>
@@ -2396,7 +2396,7 @@
         <Path>Source\Abs_Types\Collections\Vectors\Vector\Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A9C6A2B458780EA1A6CA70CA19720FB9</GUID>
+      <GUID>AF7F64467FEC577E8CB4BD57F8EB6115</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>19</Parent_Palette_Index>
@@ -2445,7 +2445,7 @@
         <Path>Source\Abs_Types\Collections\Vectors\Vector\Support\Relative Write Location.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0279646BB146EAF01E257A9DBF8E836</GUID>
+      <GUID>60AEED424E834763B12644E94979EF12</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -2480,7 +2480,7 @@
         <Path>Source\Abs_Types\Complex Double Float\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3858C7D33A11C8524F32B5E537F8F42</GUID>
+      <GUID>B654BAAEC59413A45934A11DCE596728</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2515,7 +2515,7 @@
         <Path>Source\Abs_Types\Complex Extended Float\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D4BFE60BDB83592D9558AC98174E45A</GUID>
+      <GUID>9736F9146D09278B377C95E471F44E00</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2550,7 +2550,7 @@
         <Path>Source\Abs_Types\Complex Single Float\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E1AEE2C617F1D46DAF2E060A840E8508</GUID>
+      <GUID>E81CE0EFE8819D314020BB3A74AE463C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2585,7 +2585,7 @@
         <Path>Source\Abs_Types\Double Float\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71C809781DC9BC9EB339639986C5A901</GUID>
+      <GUID>BC74FC18052A4A6B0824D3AB5D76250E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2620,7 +2620,7 @@
         <Path>Source\Abs_Types\Extended Float\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>432E2590D59DC628B599568055838572</GUID>
+      <GUID>96D6C5CCC70909D827F9C4E61DF57FA6</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2655,7 +2655,7 @@
         <Path>Source\Abs_Types\I16 Integer\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C867DC2F200668FE2904DDE65747462A</GUID>
+      <GUID>540DC3C9525239BCF8F76D32E2423CEB</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2690,7 +2690,7 @@
         <Path>Source\Abs_Types\I32 Integer\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC6F33542EEA7EC98A4983364F83BDC5</GUID>
+      <GUID>080ED5C30A62CD923BAB4D1A62E4651E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2725,7 +2725,7 @@
         <Path>Source\Abs_Types\I64 Integer\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D070A078F71484010BE461823F470CE4</GUID>
+      <GUID>81DFC928B6AAB5E462B346182E62CEB4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2760,7 +2760,7 @@
         <Path>Source\Abs_Types\I8 Integer\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>80A6EA7E2A9029394092C8BB065040A6</GUID>
+      <GUID>AA05653C788392F9DAD86C7E016E2246</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -2795,7 +2795,7 @@
         <Path>Source\Abs_Types\Single Float\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AD031ED4D9CEED5ACA465B11EFF7BAF</GUID>
+      <GUID>9C96E2E42A7AD5D24FB43070181F35FE</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -2830,7 +2830,7 @@
         <Path>Source\Abs_Types\Time\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C5F1C6592A2E23951DF220B47D71AB9</GUID>
+      <GUID>BED2ECE3DF47C7C56FA6C4C4F8645DED</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -2865,7 +2865,7 @@
         <Path>Source\Abs_Types\U16 Integer\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>647CFAFC702DC978BEEFBE37CA22AA61</GUID>
+      <GUID>471174A78D1623E34089C8405A46A85C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -2900,7 +2900,7 @@
         <Path>Source\Abs_Types\U32 Integer\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA6361E9898ACC6F400BA6216BBB3422</GUID>
+      <GUID>AA982C5080FBF12B3031A2E1FFF146D5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -2935,7 +2935,7 @@
         <Path>Source\Abs_Types\U64 Integer\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8963F8B41B4AA79B65E784F32540B6C5</GUID>
+      <GUID>AAAE021E4492D87D4DEC65ACB7D12692</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -2970,7 +2970,7 @@
         <Path>Source\Abs_Types\U8 Integer\Support\Type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3ECB69533A493539507F52D1630F358</GUID>
+      <GUID>9865F4CDB9889AACEA4AA5E5367932BC</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
