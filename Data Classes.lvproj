@@ -739,6 +739,7 @@
 			</Item>
 			<Item Name="API Tree.vi" Type="VI" URL="../Source/API Tree.vi"/>
 		</Item>
+		<Item Name="Test Assign Value.vi" Type="VI" URL="../Test/Test Assign Value.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>

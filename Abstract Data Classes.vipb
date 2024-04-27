@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-30 10:45:09" Modified_Date="2024-04-19 08:46:45" Creator="Tim" Comments="" ID="44b3fbc71cc9288df0e79a6005f69a8f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-30 10:45:09" Modified_Date="2024-04-28 09:51:21" Creator="Tim" Comments="" ID="8909a23840efc8c9a0060967c0d4d46c">
   <Library_General_Settings>
     <Package_File_Name>TSA_lib_Abstract_Data_Classes</Package_File_Name>
-    <Library_Version>2.0.0.10</Library_Version>
+    <Library_Version>2.1.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -59,9 +59,11 @@ Plus a set of Constants, Simple Variables, Basic Maths, Logic, Comparisons and C
 Check out the 'API Tree.vi' for a complete outline off all classes, methods and properties</Description>
       <Copyright/>
       <Packager>Tim Streeter</Packager>
-      <URL/>
-      <Release_Notes>I have created a discord server for any questions and feedback
-https://discord.gg/GDYxV9JfH5
+      <URL>https://github.com/timstreeter/LV_Abstract</URL>
+      <Release_Notes>Made all of the "Write.vi" and "Write xx Value.vi" value terminal required
+
+Added the "Assign Value.vi" Method to the values class. 
+The Assign Value Method writes the actual value from one value class into the current class.
 
 I also had to split the functions libraries into separate "Abstract Function Classes" package since these change exceed the 20MB package upload limit.
 
@@ -242,7 +244,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
       <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
-      <Edit_VI_Description>false</Edit_VI_Description>
+      <Edit_VI_Description>true</Edit_VI_Description>
       <Text_to_Add>{product_name} {version_number}
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
@@ -311,7 +313,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Values</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>34CB6BB7FC1A56A6B8CB0DFD1ED276D5</GUID>
+      <GUID>3BA7739DD43457F08C58D35B2724645C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -500,7 +502,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Abs_Types\Numeric</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E564EC5597A107F714F244354FE3F153</GUID>
+      <GUID>629E4921D9F728A5AB3226DB198D64A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -661,7 +663,21 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Abs_Types\Value\Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C0F1316FF45348A708A47396B9FDA96</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Assign Value.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Abs_Types\Value\Assign Value.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>6A3B602E6700C35D248D0661A6C3A36E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -724,7 +740,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Variable</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2E0908682172963D6FA69599E2B92D32</GUID>
+      <GUID>AADB81009236FCE44095D90949ED81AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -773,7 +789,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Constants\Abs_Current_Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>95207351DF5E50226FF217CA2331F8EA</GUID>
+      <GUID>B92150A781684ED0D77BC4675361C3C3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -808,7 +824,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Variables\Abs_Init_Variable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE9D65DEC9764E44A596CC6357B56224</GUID>
+      <GUID>6209175BA8ACD72411804A15A3D29EBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1221,7 +1237,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Abs_Types\Numeric\Write U64 Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD46880CBC89F8422FBD9E2A5D84DA82</GUID>
+      <GUID>24D14E5903D8BF519C41A12DFFF31F22</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
