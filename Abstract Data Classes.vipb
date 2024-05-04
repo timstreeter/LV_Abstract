@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-30 10:45:09" Modified_Date="2024-04-28 09:51:21" Creator="Tim" Comments="" ID="8909a23840efc8c9a0060967c0d4d46c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-30 10:45:09" Modified_Date="2024-05-04 12:01:28" Creator="Tim" Comments="" ID="f4db2f11fc1bc10597c3dc4c873e2a05">
   <Library_General_Settings>
     <Package_File_Name>TSA_lib_Abstract_Data_Classes</Package_File_Name>
-    <Library_Version>2.1.0.12</Library_Version>
+    <Library_Version>2.1.1.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -60,7 +60,9 @@ Check out the 'API Tree.vi' for a complete outline off all classes, methods and 
       <Copyright/>
       <Packager>Tim Streeter</Packager>
       <URL>https://github.com/timstreeter/LV_Abstract</URL>
-      <Release_Notes>Made all of the "Write.vi" and "Write xx Value.vi" value terminal required
+      <Release_Notes>Fixed a bug in the Abs_Boolean 'From String' Method
+
+Made all of the "Write.vi" and "Write xx Value.vi" value terminal required
 
 Added the "Assign Value.vi" Method to the values class. 
 The Assign Value Method writes the actual value from one value class into the current class.
@@ -313,7 +315,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Values</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BA7739DD43457F08C58D35B2724645C</GUID>
+      <GUID>C0E98CACDF2D699D5D7429FE522BE496</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -502,7 +504,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Abs_Types\Numeric</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>629E4921D9F728A5AB3226DB198D64A7</GUID>
+      <GUID>12457D765E0B2E84D7A663CFB69829EF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -677,7 +679,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Abs_Types\Value\Assign Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A3B602E6700C35D248D0661A6C3A36E</GUID>
+      <GUID>E4FCC544745E393F3340AE9CF882C271</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -740,7 +742,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Variable</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AADB81009236FCE44095D90949ED81AB</GUID>
+      <GUID>1F8B62D762FBA33A0D8E0D5997958F97</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -789,7 +791,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Constants\Abs_Current_Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B92150A781684ED0D77BC4675361C3C3</GUID>
+      <GUID>FD5F9C288A9C894D27E2FA38792ABC17</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -824,7 +826,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Variables\Abs_Init_Variable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6209175BA8ACD72411804A15A3D29EBA</GUID>
+      <GUID>994E1E8C5ED052FB9F1ECD3B37639B0B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1237,7 +1239,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Abs_Types\Numeric\Write U64 Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24D14E5903D8BF519C41A12DFFF31F22</GUID>
+      <GUID>02D24E8D47313B4D8DB0FA4042F6CAF2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
