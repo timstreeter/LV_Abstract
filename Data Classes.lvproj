@@ -81,6 +81,7 @@
 			<Item Name="Unit Tests.vi" Type="VI" URL="../Unit Tests/Unit Tests.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
+			<Item Name="Test Assign Value.vi" Type="VI" URL="../Test/Test Assign Value.vi"/>
 			<Item Name="Test Binary Serialisation.vi" Type="VI" URL="../Test/Test Binary Serialisation.vi"/>
 			<Item Name="Test U16 Logic.vi" Type="VI" URL="../Test/Test U16 Logic.vi"/>
 			<Item Name="Test U8 Logic.vi" Type="VI" URL="../Test/Test U8 Logic.vi"/>
@@ -739,7 +740,6 @@
 			</Item>
 			<Item Name="API Tree.vi" Type="VI" URL="../Source/API Tree.vi"/>
 		</Item>
-		<Item Name="Test Assign Value.vi" Type="VI" URL="../Test/Test Assign Value.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>

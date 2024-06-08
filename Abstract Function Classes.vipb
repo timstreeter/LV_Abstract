@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-19 08:58:53" Modified_Date="2024-04-19 18:31:49" Creator="Tim" Comments="" ID="8c8d0a33132c9a4cf185d5e3c94ce9b7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-19 08:58:53" Modified_Date="2024-06-09 07:59:04" Creator="Tim" Comments="" ID="85486f95beeb7b81a7740f8e32b22a6a">
   <Library_General_Settings>
     <Package_File_Name>TSA_lib_Abstract_Function_Classes</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -45,10 +45,9 @@ Check out the 'API Tree.vi' for a complete outline off all classes, methods and 
       <Copyright/>
       <Packager>Tim Streeter</Packager>
       <URL/>
-      <Release_Notes>Discord server for any questions and feedback
-https://discord.gg/GDYxV9JfH5
+      <Release_Notes>I have added to all of the polymorphic VI's
 
-I had to split the functions libraries into separate "Abstract Function Classes" package since the total package exceed the 20MB package upload limit.
+Previously the function wrapper polymorphic VI only had abstact types for both of there terminal, now there is a polymorphic version that has a labview type as the second input.
 </Release_Notes>
     </Description>
     <Destinations>
@@ -299,7 +298,7 @@ I had to split the functions libraries into separate "Abstract Function Classes"
         <Path>Source\Functions\Conversion</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>318858EE301837D0F91F64C5263F5A88</GUID>
+      <GUID>A5D6CEF586323E86537A1348A4362B23</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +459,7 @@ I had to split the functions libraries into separate "Abstract Function Classes"
         <Path>Source\Functions\Math\Reciprocal.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2FAB8EC93ADA987A90F0462752041D9F</GUID>
+      <GUID>1A8C7F1ED7436A8EAB17D14635A0DAA6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -593,7 +592,7 @@ I had to split the functions libraries into separate "Abstract Function Classes"
         <Path>Source\Functions\Logic\NOT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>513BAE0847B62D1015006F13A0F96E74</GUID>
+      <GUID>614E643B3E2E0B48B0BE7ED6704AE7AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -810,7 +809,7 @@ I had to split the functions libraries into separate "Abstract Function Classes"
         <Path>Source\Functions\Compare\Less Than Equal to.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23641F0636A9218D539598CC11F1EB28</GUID>
+      <GUID>ECF59791D7251802D057BDFFB079FA3A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -859,7 +858,7 @@ I had to split the functions libraries into separate "Abstract Function Classes"
         <Path>Source\Functions\Conversion\Convert To.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D65509BAAD417BC4209665E1A120977A</GUID>
+      <GUID>CEBA0CDC33FF742F972790868DCD6A50</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
