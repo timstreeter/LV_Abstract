@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-30 10:45:09" Modified_Date="2024-05-04 12:01:28" Creator="Tim" Comments="" ID="f4db2f11fc1bc10597c3dc4c873e2a05">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-30 10:45:09" Modified_Date="2025-05-26 08:29:50" Creator="Tim" Comments="" ID="ad29f75ca02c9ab577fe3f872b2a2c4f">
   <Library_General_Settings>
     <Package_File_Name>TSA_lib_Abstract_Data_Classes</Package_File_Name>
-    <Library_Version>2.1.1.13</Library_Version>
+    <Library_Version>2.1.1.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -60,49 +60,10 @@ Check out the 'API Tree.vi' for a complete outline off all classes, methods and 
       <Copyright/>
       <Packager>Tim Streeter</Packager>
       <URL>https://github.com/timstreeter/LV_Abstract</URL>
-      <Release_Notes>Fixed a bug in the Abs_Boolean 'From String' Method
+      <Release_Notes>Added Units string property to all Numeric Types. 
+The Units are appended to the end of the ToString Method
 
-Made all of the "Write.vi" and "Write xx Value.vi" value terminal required
-
-Added the "Assign Value.vi" Method to the values class. 
-The Assign Value Method writes the actual value from one value class into the current class.
-
-I also had to split the functions libraries into separate "Abstract Function Classes" package since these change exceed the 20MB package upload limit.
-
-**Renamed the To Value Abs_Numeric.lvclass Class Methods**  
- - This is a breaking change so let me know if there is issues
-Complex Double Value.vi -&gt; Read Complex Double Value.vi
-Complex Extended Value.vi -&gt; Read Complex Extended Value.vi
-Complex Single Value.vi -&gt; Read Complex Single Value.vi 
-Double Float Value.vi -&gt; Read Double Float Value.vi
-Extended Float Value.vi -&gt; Read Extended Float Value.vi
-Single Float Value.vi -&gt; Read Single Float Value.vi
-I8 Value.vi -&gt; Read I8 Value.vi
-I16 Value.vi -&gt; Read Value.vi 
-I32 Value.vi -&gt; Read I32 Value.vi
-I64 Value.vi -&gt; Read I64 Value.vi
-U8 Value.vi -&gt; Read U8 Value.vi
-U16 Value.vi -&gt; Read U16 Value.vi
-U32 Value.vi -&gt; Read U32 Value.vi
-U64 Value.vi -&gt; Read U64 Value.vi
-
-Added these methods to the Abs_Numeric.lvclass
-Write Complex Double Value.vi
-Write Complex Extended Value.vi
-Write Complex Single Value.vi
-Write Double Float Value.vi
-Write Extended Float Value.vi
-Write Single Float Value.vi
-Write I8 Value.vi
-Write I16 Value.vi
-Write I32 Value.vi
-Write I64 Value.vi
-Write U8 Value.vi
-Write U16 Value.vi
-Write U32 Value.vi
-Write U64 Value.vi
-
-The point of these methods is if all you know the type is a ABS_Numeric.lvclass type then you can use these methods to write any numeric values in and the type is cast to the underlying type.</Release_Notes>
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -315,7 +276,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Values</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0E98CACDF2D699D5D7429FE522BE496</GUID>
+      <GUID>2A8CAAD5135813A8A9B88522393371A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -323,7 +284,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>4</Height_Row>
-        <Width_Col.>5</Width_Col.>
+        <Width_Col.>4</Width_Col.>
       </Size>
       <_256_Color_Icon>00000424002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000002BF0000028B000000010007002000180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000014801C001AC609589EAC09D5DAA208591ACCC990D00000001002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000010D000000E70019000B0020001600180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF001FE65F48BF4CFF42BF4CBF001F</_256_Color_Icon>
       <BW_Color_Icon>00000000</BW_Color_Icon>
@@ -367,62 +328,6 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Abs_Read.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Source\Abs_Types\Abs_Read.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Source\Abs_Types\Type\Close.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Abs_Write.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Source\Abs_Types\Abs_Write.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Abs_Simple_Read.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Source\Abs_Types\Abs_Simple_Read.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Read Config Binary.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -446,34 +351,6 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         </Position>
         <Icon>00000000</Icon>
         <Path>Source\Abs_Types\Type\Write Binary Config.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Config JSON.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Source\Abs_Types\Type\Read Config JSON.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write JSON Config.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Source\Abs_Types\Type\Write JSON Config.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -504,7 +381,91 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Abs_Types\Numeric</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12457D765E0B2E84D7A663CFB69829EF</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Abs_Read.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Abs_Types\Abs_Read.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Abs_Simple_Read.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Abs_Types\Abs_Simple_Read.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Abs_Write.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Abs_Types\Abs_Write.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Close.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Abs_Types\Type\Close.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Config JSON.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Abs_Types\Type\Read Config JSON.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write JSON Config.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Abs_Types\Type\Write JSON Config.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>4D89249ACB7735E18880F85EBA986899</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -679,7 +640,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Abs_Types\Value\Assign Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E4FCC544745E393F3340AE9CF882C271</GUID>
+      <GUID>B6E121393628997770AC905C73DEF866</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -742,7 +703,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Variable</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F8B62D762FBA33A0D8E0D5997958F97</GUID>
+      <GUID>283BDDBA2EFD8F35C5EAF8488F821788</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -791,7 +752,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Constants\Abs_Current_Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD5F9C288A9C894D27E2FA38792ABC17</GUID>
+      <GUID>A23D1FD59F2E043DECA8F91893169A85</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -826,7 +787,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Variables\Abs_Init_Variable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>994E1E8C5ED052FB9F1ECD3B37639B0B</GUID>
+      <GUID>3B8AAB2EF452160E6E4E269200A5B4F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1239,7 +1200,7 @@ The point of these methods is if all you know the type is a ABS_Numeric.lvclass 
         <Path>Source\Abs_Types\Numeric\Write U64 Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02D24E8D47313B4D8DB0FA4042F6CAF2</GUID>
+      <GUID>C32490B2CAE100B6E399200477518B08</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
