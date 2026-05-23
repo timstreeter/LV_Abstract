@@ -95,7 +95,9 @@
 			<Item Name="Test JSON Config.vi" Type="VI" URL="../Test/Test JSON Config.vi"/>
 			<Item Name="Test Binary Config.vi" Type="VI" URL="../Test/Test Binary Config.vi"/>
 			<Item Name="Test String Functions.vi" Type="VI" URL="../Test/Test String Functions.vi"/>
+			<Item Name="Test Boolean 1D Logic.vi" Type="VI" URL="../Test/Test Boolean 1D Logic.vi"/>
 			<Item Name="String Insert Tests.vi" Type="VI" URL="../Test/String Insert Tests.vi"/>
+			<Item Name="Test Numeric Array.vi" Type="VI" URL="../Test/Test Numeric Array.vi"/>
 		</Item>
 		<Item Name="Source" Type="Folder">
 			<Item Name="Abstract_Types" Type="Folder">
@@ -108,6 +110,7 @@
 					<Item Name="Array1D" Type="Folder">
 						<Item Name="Array1D_Bool.lvclass" Type="LVClass" URL="../Source/Abs_Types/Interfaces/Array1D_Bool/Array1D_Bool.lvclass"/>
 						<Item Name="Array1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Interfaces/Array1D/Array1D.lvclass"/>
+						<Item Name="Array.lvclass" Type="LVClass" URL="../Source/Abs_Types/Interfaces/Array/Array.lvclass"/>
 					</Item>
 					<Item Name="Iterator.lvclass" Type="LVClass" URL="../Source/Abs_Types/Iterator/Iterator.lvclass"/>
 					<Item Name="Vector of Elements.lvclass" Type="LVClass" URL="../Source/Abs_Types/Collections/Vectors/Vector Elements/Vector of Elements.lvclass"/>
@@ -121,28 +124,45 @@
 						<Item Name="Floating Point" Type="Folder">
 							<Item Name="Complex" Type="Folder">
 								<Item Name="Abs_Complex Double Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Double Float/Abs_Complex Double Float.lvclass"/>
+								<Item Name="Abs_Complex Double Float 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Double Float 1D/Abs_Complex Double Float 1D.lvclass"/>
 								<Item Name="Abs_Complex Extended Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Extended Float/Abs_Complex Extended Float.lvclass"/>
+								<Item Name="Abs_Complex Extended Float 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Extended Float 1D/Abs_Complex Extended Float 1D.lvclass"/>
 								<Item Name="Abs_Complex Single Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Single Float/Abs_Complex Single Float.lvclass"/>
+								<Item Name="Abs_Complex Single Float 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Complex Single Float 1D/Abs_Complex Single Float 1D.lvclass"/>
 							</Item>
-							<Item Name="Abs_Double Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Double Float/Abs_Double Float.lvclass"/>
-							<Item Name="Abs_Extended Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Extended Float/Abs_Extended Float.lvclass"/>
 							<Item Name="Abs_Floating Point.lvclass" Type="LVClass" URL="../Source/Abs_Types/Floating Point/Abs_Floating Point.lvclass"/>
+							<Item Name="Abs_Floating Point 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Floating Point 1D/Abs_Floating Point 1D.lvclass"/>
+							<Item Name="Abs_Double Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Double Float/Abs_Double Float.lvclass"/>
+							<Item Name="Abs_Double Float 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Double Float 1D/Abs_Double Float 1D.lvclass"/>
+							<Item Name="Abs_Extended Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Extended Float/Abs_Extended Float.lvclass"/>
+							<Item Name="Abs_Extended Float 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Extended Float 1D/Abs_Extended Float 1D.lvclass"/>
 							<Item Name="Abs_Single Float.lvclass" Type="LVClass" URL="../Source/Abs_Types/Single Float/Abs_Single Float.lvclass"/>
+							<Item Name="Abs_Single Float 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Single Float 1D/Abs_Single Float 1D.lvclass"/>
 						</Item>
 						<Item Name="Integer" Type="Folder">
-							<Item Name="Abs_I8 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I8 Integer/Abs_I8 Integer.lvclass"/>
-							<Item Name="Abs_I16 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I16 Integer/Abs_I16 Integer.lvclass"/>
-							<Item Name="Abs_I32 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I32 Integer/Abs_I32 Integer.lvclass"/>
-							<Item Name="Abs_I64 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I64 Integer/Abs_I64 Integer.lvclass"/>
 							<Item Name="Abs_Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/Integer/Abs_Integer.lvclass"/>
+							<Item Name="Abs_Integer 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Integer 1D/Abs_Integer 1D.lvclass"/>
+							<Item Name="Abs_I8 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I8 Integer/Abs_I8 Integer.lvclass"/>
+							<Item Name="Abs_I8 Integer 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/I8 Integer 1D/Abs_I8 Integer 1D.lvclass"/>
+							<Item Name="Abs_I16 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I16 Integer/Abs_I16 Integer.lvclass"/>
+							<Item Name="Abs_I16 Integer 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/I16 Integer 1D/Abs_I16 Integer 1D.lvclass"/>
+							<Item Name="Abs_I32 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I32 Integer/Abs_I32 Integer.lvclass"/>
+							<Item Name="Abs_I32 Integer 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/I32 Integer 1D/Abs_I32 Integer 1D.lvclass"/>
+							<Item Name="Abs_I64 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/I64 Integer/Abs_I64 Integer.lvclass"/>
+							<Item Name="Abs_I64 Integer 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/I64 Integer 1D/Abs_I64 Integer 1D.lvclass"/>
 							<Item Name="Abs_U8 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/U8 Integer/Abs_U8 Integer.lvclass"/>
+							<Item Name="Abs_U8 Integer 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/U8 Integer 1D/Abs_U8 Integer 1D.lvclass"/>
 							<Item Name="Abs_U16 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/U16 Integer/Abs_U16 Integer.lvclass"/>
+							<Item Name="Abs_U16 Integer 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/U16 Integer 1D/Abs_U16 Integer 1D.lvclass"/>
 							<Item Name="Abs_U32 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/U32 Integer/Abs_U32 Integer.lvclass"/>
+							<Item Name="Abs_U32 Integer 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/U32 Integer 1D/Abs_U32 Integer 1D.lvclass"/>
 							<Item Name="Abs_U64 Integer.lvclass" Type="LVClass" URL="../Source/Abs_Types/U64 Integer/Abs_U64 Integer.lvclass"/>
+							<Item Name="Abs_U64 Integer 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/U64 Integer 1D/Abs_U64 Integer 1D.lvclass"/>
 						</Item>
 						<Item Name="Time" Type="Folder">
 							<Item Name="Abs_Time.lvclass" Type="LVClass" URL="../Source/Abs_Types/Time/Abs_Time.lvclass"/>
 						</Item>
+						<Item Name="Abs_Numeric_1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Numeric 1D/Abs_Numeric_1D.lvclass"/>
 						<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="../Source/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
 					</Item>
 					<Item Name="String" Type="Folder">
@@ -154,6 +174,7 @@
 					<Item Name="Waveform" Type="Folder">
 						<Item Name="Abs_Waveform.lvclass" Type="LVClass" URL="../Source/Abs_Types/Waveform/Abs_Waveform.lvclass"/>
 					</Item>
+					<Item Name="Abs_Value_1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Value 1D/Abs_Value_1D.lvclass"/>
 					<Item Name="Abs_Value.lvclass" Type="LVClass" URL="../Source/Abs_Types/Value/Abs_Value.lvclass"/>
 				</Item>
 				<Item Name="Abs_Type.lvclass" Type="LVClass" URL="../Source/Abs_Types/Type/Abs_Type.lvclass"/>
@@ -724,6 +745,7 @@
 						<Item Name="Const_CPLX_SGL.lvclass" Type="LVClass" URL="../Source/Constants/Support/CPLX_SGL/Const_CPLX_SGL.lvclass"/>
 						<Item Name="Const_Current Time.lvclass" Type="LVClass" URL="../Source/Constants/Support/Curr_Time/Const_Current Time.lvclass"/>
 						<Item Name="Const_DBL.lvclass" Type="LVClass" URL="../Source/Constants/Support/DBL/Const_DBL.lvclass"/>
+						<Item Name="Const_DBL_1D.lvclass" Type="LVClass" URL="../Source/Constants/Support/DBL_1D/Const_DBL_1D.lvclass"/>
 						<Item Name="Const_EXT.lvclass" Type="LVClass" URL="../Source/Constants/Support/EXT/Const_EXT.lvclass"/>
 						<Item Name="Const_I8.lvclass" Type="LVClass" URL="../Source/Constants/Support/I8/Const_I8.lvclass"/>
 						<Item Name="Const_I16.lvclass" Type="LVClass" URL="../Source/Constants/Support/I16/Const_I16.lvclass"/>
@@ -771,7 +793,6 @@
 			</Item>
 			<Item Name="API Tree.vi" Type="VI" URL="../Source/API Tree.vi"/>
 		</Item>
-		<Item Name="Test Boolean 1D Logic.vi" Type="VI" URL="../Test/Test Boolean 1D Logic.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
