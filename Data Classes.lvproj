@@ -161,6 +161,7 @@
 						</Item>
 						<Item Name="Time" Type="Folder">
 							<Item Name="Abs_Time.lvclass" Type="LVClass" URL="../Source/Abs_Types/Time/Abs_Time.lvclass"/>
+							<Item Name="Abs_Time 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Time 1D/Abs_Time 1D.lvclass"/>
 						</Item>
 						<Item Name="Abs_Numeric_1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Numeric 1D/Abs_Numeric_1D.lvclass"/>
 						<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="../Source/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
