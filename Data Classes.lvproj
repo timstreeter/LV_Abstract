@@ -167,6 +167,7 @@
 						<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="../Source/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
 					</Item>
 					<Item Name="String" Type="Folder">
+						<Item Name="Abs_String 1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/String 1D/Abs_String 1D.lvclass"/>
 						<Item Name="Abs_String.lvclass" Type="LVClass" URL="../Source/Abs_Types/String/Abs_String.lvclass"/>
 					</Item>
 					<Item Name="Variant" Type="Folder">
