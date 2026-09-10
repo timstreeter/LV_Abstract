@@ -108,7 +108,6 @@
 						<Item Name="Vector_DBL.lvclass" Type="LVClass" URL="../Source/Abs_Types/Collections/Vectors/Vector_DBL/Vector_DBL.lvclass"/>
 					</Item>
 					<Item Name="Array1D" Type="Folder">
-						<Item Name="Array1D_Bool.lvclass" Type="LVClass" URL="../Source/Abs_Types/Interfaces/Array1D_Bool/Array1D_Bool.lvclass"/>
 						<Item Name="Array1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Interfaces/Array1D/Array1D.lvclass"/>
 						<Item Name="Array.lvclass" Type="LVClass" URL="../Source/Abs_Types/Interfaces/Array/Array.lvclass"/>
 					</Item>
@@ -178,6 +177,9 @@
 					</Item>
 					<Item Name="Abs_Value_1D.lvclass" Type="LVClass" URL="../Source/Abs_Types/Value 1D/Abs_Value_1D.lvclass"/>
 					<Item Name="Abs_Value.lvclass" Type="LVClass" URL="../Source/Abs_Types/Value/Abs_Value.lvclass"/>
+				</Item>
+				<Item Name="Interfaces" Type="Folder">
+					<Item Name="Abs_Sync.lvclass" Type="LVClass" URL="../Source/Abs_Types/Interfaces/Sync/Abs_Sync.lvclass"/>
 				</Item>
 				<Item Name="Abs_Type.lvclass" Type="LVClass" URL="../Source/Abs_Types/Type/Abs_Type.lvclass"/>
 				<Item Name="Abs_Read.vi" Type="VI" URL="../Source/Abs_Types/Abs_Read.vi"/>
