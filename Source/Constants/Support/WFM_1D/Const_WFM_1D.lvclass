@@ -37,7 +37,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1117782528</Property>
 			</Item>
 		</Item>
 		<Item Name="Read Only" Type="Property Definition">
@@ -65,7 +65,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1117782528</Property>
 			</Item>
 		</Item>
 		<Item Name="Value" Type="Property Definition">
@@ -79,7 +79,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">41943040</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">44040192</Property>
 			</Item>
 		</Item>
 	</Item>
