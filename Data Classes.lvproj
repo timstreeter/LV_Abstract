@@ -948,79 +948,6 @@
 				<Item Name="openg_string.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="WFM.vi" Type="VI" URL="../Source/Constants/Support/WFM/WFM.vi"/>
-			<Item Name="Const_WFM.ctl" Type="VI" URL="../Source/Constants/Support/WFM/Const_WFM.lvclass/Const_WFM.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/WFM/Properties/Write Value.vi"/>
-			<Item Name="Variant.vi" Type="VI" URL="../Source/Constants/Support/Variant/Variant.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/Variant/Type.ctl"/>
-			<Item Name="Const_Variant.ctl" Type="VI" URL="../Source/Constants/Support/Variant/Const_Variant.lvclass/Const_Variant.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/Variant/Properties/Write Value.vi"/>
-			<Item Name="SGL_1D.vi" Type="VI" URL="../Source/Constants/Support/SGL_1D/SGL_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/SGL_1D/Type.ctl"/>
-			<Item Name="Const_SGL_1D.ctl" Type="VI" URL="../Source/Constants/Support/SGL_1D/Const_SGL_1D.lvclass/Const_SGL_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/SGL_1D/Properties/Write Value.vi"/>
-			<Item Name="EXT_1D.vi" Type="VI" URL="../Source/Constants/Support/EXT_1D/EXT_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/EXT_1D/Type.ctl"/>
-			<Item Name="Const_EXT_1D.ctl" Type="VI" URL="../Source/Constants/Support/EXT_1D/Const_EXT_1D.lvclass/Const_EXT_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/EXT_1D/Properties/Write Value.vi"/>
-			<Item Name="U8_1D.vi" Type="VI" URL="../Source/Constants/Support/U8_1D/U8_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/U8_1D/Type.ctl"/>
-			<Item Name="Const_U8_1D.ctl" Type="VI" URL="../Source/Constants/Support/U8_1D/Const_U8_1D.lvclass/Const_U8_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/U8_1D/Properties/Write Value.vi"/>
-			<Item Name="U16_1D.vi" Type="VI" URL="../Source/Constants/Support/U16_1D/U16_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/U16_1D/Type.ctl"/>
-			<Item Name="Const_U16_1D.ctl" Type="VI" URL="../Source/Constants/Support/U16_1D/Const_U16_1D.lvclass/Const_U16_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/U16_1D/Properties/Write Value.vi"/>
-			<Item Name="U32_1D.vi" Type="VI" URL="../Source/Constants/Support/U32_1D/U32_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/U32_1D/Type.ctl"/>
-			<Item Name="Const_U32_1D.ctl" Type="VI" URL="../Source/Constants/Support/U32_1D/Const_U32_1D.lvclass/Const_U32_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/U32_1D/Properties/Write Value.vi"/>
-			<Item Name="U64_1D.vi" Type="VI" URL="../Source/Constants/Support/U64_1D/U64_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/U64_1D/Type.ctl"/>
-			<Item Name="Const_U64_1D.ctl" Type="VI" URL="../Source/Constants/Support/U64_1D/Const_U64_1D.lvclass/Const_U64_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/U64_1D/Properties/Write Value.vi"/>
-			<Item Name="I8_1D.vi" Type="VI" URL="../Source/Constants/Support/I8_1D/I8_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/I8_1D/Type.ctl"/>
-			<Item Name="Const_I8_1D.ctl" Type="VI" URL="../Source/Constants/Support/I8_1D/Const_I8_1D.lvclass/Const_I8_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/I8_1D/Properties/Write Value.vi"/>
-			<Item Name="I8_1D.vi" Type="VI" URL="../Source/Constants/Support/I16_1D/I8_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/I16_1D/Type.ctl"/>
-			<Item Name="Const_I16_1D.ctl" Type="VI" URL="../Source/Constants/Support/I16_1D/Const_I16_1D.lvclass/Const_I16_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/I16_1D/Properties/Write Value.vi"/>
-			<Item Name="I32_1D.vi" Type="VI" URL="../Source/Constants/Support/I32_1D/I32_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/I32_1D/Type.ctl"/>
-			<Item Name="Const_I32_1D.ctl" Type="VI" URL="../Source/Constants/Support/I32_1D/Const_I32_1D.lvclass/Const_I32_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/I32_1D/Properties/Write Value.vi"/>
-			<Item Name="I64_1D.vi" Type="VI" URL="../Source/Constants/Support/I64_1D/I64_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/I64_1D/Type.ctl"/>
-			<Item Name="Const_I64_1D.ctl" Type="VI" URL="../Source/Constants/Support/I64_1D/Const_I64_1D.lvclass/Const_I64_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/I64_1D/Properties/Write Value.vi"/>
-			<Item Name="Str_1D.vi" Type="VI" URL="../Source/Constants/Support/Str_1D/Str_1D.vi"/>
-			<Item Name="Const_Str_1D.ctl" Type="VI" URL="../Source/Constants/Support/Str_1D/Const_Str_1D.lvclass/Const_Str_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/Str_1D/Properties/Write Value.vi"/>
-			<Item Name="WFM_1D.vi" Type="VI" URL="../Source/Constants/Support/WFM_1D/WFM_1D.vi"/>
-			<Item Name="Const_WFM_1D.ctl" Type="VI" URL="../Source/Constants/Support/WFM_1D/Const_WFM_1D.lvclass/Const_WFM_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/WFM_1D/Properties/Write Value.vi"/>
-			<Item Name="Time_1D.vi" Type="VI" URL="../Source/Constants/Support/Time_1D/Time_1D.vi"/>
-			<Item Name="Const_Time_1D.ctl" Type="VI" URL="../Source/Constants/Support/Time_1D/Const_Time_1D.lvclass/Const_Time_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/Time_1D/Properties/Write Value.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/Time_1D/Type.ctl"/>
-			<Item Name="Variant_1D.vi" Type="VI" URL="../Source/Constants/Support/Variant_1D/Variant_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/Variant_1D/Type.ctl"/>
-			<Item Name="Const_Variant_1D.ctl" Type="VI" URL="../Source/Constants/Support/Variant_1D/Const_Variant_1D.lvclass/Const_Variant_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/Variant_1D/Properties/Write Value.vi"/>
-			<Item Name="CPLX_DBL_1D.vi" Type="VI" URL="../Source/Constants/Support/CPLX_DBL_1D/CPLX_DBL_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_DBL_1D/Type.ctl"/>
-			<Item Name="Const_CPLX_DBL_1D.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_DBL_1D/Const_CPLX_DBL_1D.lvclass/Const_CPLX_DBL_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/CPLX_DBL_1D/Properties/Write Value.vi"/>
-			<Item Name="CPLX_EXT_1D.vi" Type="VI" URL="../Source/Constants/Support/CPLX_EXT_1D/CPLX_EXT_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_EXT_1D/Type.ctl"/>
-			<Item Name="Const_CPLX_EXT_1D.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_EXT_1D/Const_CPLX_EXT_1D.lvclass/Const_CPLX_EXT_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/CPLX_EXT_1D/Properties/Write Value.vi"/>
-			<Item Name="CPLX_SGL_1D.vi" Type="VI" URL="../Source/Constants/Support/CPLX_SGL_1D/CPLX_SGL_1D.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_SGL_1D/Type.ctl"/>
-			<Item Name="Const_CPLX_SGL_1D.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_SGL_1D/Const_CPLX_SGL_1D.lvclass/Const_CPLX_SGL_1D.ctl"/>
-			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/CPLX_SGL_1D/Properties/Write Value.vi"/>
 			<Item Name="Simple Read.vi" Type="VI" URL="../Source/Abs_Types/Time 1D/Simple Read.vi"/>
 			<Item Name="Type.ctl" Type="VI" URL="../Source/Abs_Types/Time 1D/Support/Type.ctl"/>
 			<Item Name="Simple Read.vi" Type="VI" URL="../Source/Abs_Types/Variant 1D/Simple Read.vi"/>
@@ -1097,46 +1024,6 @@
 			<Item Name="AbsFunc_One Term_Time.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/Time/AbsFunc_One Term_Time.lvclass/AbsFunc_One Term_Time.ctl"/>
 			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/Time/Properties/Write Numeric A.vi"/>
 			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/Time/Support/Abstract Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/Variant/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/Variant/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/DBL 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/DBL 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/Bool 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/Bool 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/CPLX_DBL 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/CPLX_DBL 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/CPLX_EXT 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/CPLX_EXT 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/CPLX_SGL 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/CPLX_SGL 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/EXT 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/EXT 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/I8 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/I8 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/I16 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/I16 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/I32 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/I32 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/I64 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/I64 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/SGL 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/SGL 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/U8 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/U8 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/U16 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/U16 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/U32 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/U32 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/U64 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/U64 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/STR 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/STR 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/Time 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/Time 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/Variant 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/Variant 1D/Type.ctl"/>
-			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/WFM 1D/Support/Init_Simple_Var.vi"/>
-			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/WFM 1D/Type.ctl"/>
 			<Item Name="Static Read.vi" Type="VI" URL="../Source/Abs_Types/Time 1D/Static Read.vi"/>
 			<Item Name="Static Read.vi" Type="VI" URL="../Source/Abs_Types/Variant 1D/Static Read.vi"/>
 			<Item Name="Static Read.vi" Type="VI" URL="../Source/Abs_Types/Waveform 1D/Static Read.vi"/>
