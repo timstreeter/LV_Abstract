@@ -948,6 +948,1047 @@
 				<Item Name="openg_string.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="WFM.vi" Type="VI" URL="../Source/Constants/Support/WFM/WFM.vi"/>
+			<Item Name="Const_WFM.ctl" Type="VI" URL="../Source/Constants/Support/WFM/Const_WFM.lvclass/Const_WFM.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/WFM/Properties/Write Value.vi"/>
+			<Item Name="Variant.vi" Type="VI" URL="../Source/Constants/Support/Variant/Variant.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/Variant/Type.ctl"/>
+			<Item Name="Const_Variant.ctl" Type="VI" URL="../Source/Constants/Support/Variant/Const_Variant.lvclass/Const_Variant.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/Variant/Properties/Write Value.vi"/>
+			<Item Name="SGL_1D.vi" Type="VI" URL="../Source/Constants/Support/SGL_1D/SGL_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/SGL_1D/Type.ctl"/>
+			<Item Name="Const_SGL_1D.ctl" Type="VI" URL="../Source/Constants/Support/SGL_1D/Const_SGL_1D.lvclass/Const_SGL_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/SGL_1D/Properties/Write Value.vi"/>
+			<Item Name="EXT_1D.vi" Type="VI" URL="../Source/Constants/Support/EXT_1D/EXT_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/EXT_1D/Type.ctl"/>
+			<Item Name="Const_EXT_1D.ctl" Type="VI" URL="../Source/Constants/Support/EXT_1D/Const_EXT_1D.lvclass/Const_EXT_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/EXT_1D/Properties/Write Value.vi"/>
+			<Item Name="U8_1D.vi" Type="VI" URL="../Source/Constants/Support/U8_1D/U8_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/U8_1D/Type.ctl"/>
+			<Item Name="Const_U8_1D.ctl" Type="VI" URL="../Source/Constants/Support/U8_1D/Const_U8_1D.lvclass/Const_U8_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/U8_1D/Properties/Write Value.vi"/>
+			<Item Name="U16_1D.vi" Type="VI" URL="../Source/Constants/Support/U16_1D/U16_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/U16_1D/Type.ctl"/>
+			<Item Name="Const_U16_1D.ctl" Type="VI" URL="../Source/Constants/Support/U16_1D/Const_U16_1D.lvclass/Const_U16_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/U16_1D/Properties/Write Value.vi"/>
+			<Item Name="U32_1D.vi" Type="VI" URL="../Source/Constants/Support/U32_1D/U32_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/U32_1D/Type.ctl"/>
+			<Item Name="Const_U32_1D.ctl" Type="VI" URL="../Source/Constants/Support/U32_1D/Const_U32_1D.lvclass/Const_U32_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/U32_1D/Properties/Write Value.vi"/>
+			<Item Name="U64_1D.vi" Type="VI" URL="../Source/Constants/Support/U64_1D/U64_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/U64_1D/Type.ctl"/>
+			<Item Name="Const_U64_1D.ctl" Type="VI" URL="../Source/Constants/Support/U64_1D/Const_U64_1D.lvclass/Const_U64_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/U64_1D/Properties/Write Value.vi"/>
+			<Item Name="I8_1D.vi" Type="VI" URL="../Source/Constants/Support/I8_1D/I8_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/I8_1D/Type.ctl"/>
+			<Item Name="Const_I8_1D.ctl" Type="VI" URL="../Source/Constants/Support/I8_1D/Const_I8_1D.lvclass/Const_I8_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/I8_1D/Properties/Write Value.vi"/>
+			<Item Name="I8_1D.vi" Type="VI" URL="../Source/Constants/Support/I16_1D/I8_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/I16_1D/Type.ctl"/>
+			<Item Name="Const_I16_1D.ctl" Type="VI" URL="../Source/Constants/Support/I16_1D/Const_I16_1D.lvclass/Const_I16_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/I16_1D/Properties/Write Value.vi"/>
+			<Item Name="I32_1D.vi" Type="VI" URL="../Source/Constants/Support/I32_1D/I32_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/I32_1D/Type.ctl"/>
+			<Item Name="Const_I32_1D.ctl" Type="VI" URL="../Source/Constants/Support/I32_1D/Const_I32_1D.lvclass/Const_I32_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/I32_1D/Properties/Write Value.vi"/>
+			<Item Name="I64_1D.vi" Type="VI" URL="../Source/Constants/Support/I64_1D/I64_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/I64_1D/Type.ctl"/>
+			<Item Name="Const_I64_1D.ctl" Type="VI" URL="../Source/Constants/Support/I64_1D/Const_I64_1D.lvclass/Const_I64_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/I64_1D/Properties/Write Value.vi"/>
+			<Item Name="Str_1D.vi" Type="VI" URL="../Source/Constants/Support/Str_1D/Str_1D.vi"/>
+			<Item Name="Const_Str_1D.ctl" Type="VI" URL="../Source/Constants/Support/Str_1D/Const_Str_1D.lvclass/Const_Str_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/Str_1D/Properties/Write Value.vi"/>
+			<Item Name="WFM_1D.vi" Type="VI" URL="../Source/Constants/Support/WFM_1D/WFM_1D.vi"/>
+			<Item Name="Const_WFM_1D.ctl" Type="VI" URL="../Source/Constants/Support/WFM_1D/Const_WFM_1D.lvclass/Const_WFM_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/WFM_1D/Properties/Write Value.vi"/>
+			<Item Name="Time_1D.vi" Type="VI" URL="../Source/Constants/Support/Time_1D/Time_1D.vi"/>
+			<Item Name="Const_Time_1D.ctl" Type="VI" URL="../Source/Constants/Support/Time_1D/Const_Time_1D.lvclass/Const_Time_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/Time_1D/Properties/Write Value.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/Time_1D/Type.ctl"/>
+			<Item Name="Variant_1D.vi" Type="VI" URL="../Source/Constants/Support/Variant_1D/Variant_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/Variant_1D/Type.ctl"/>
+			<Item Name="Const_Variant_1D.ctl" Type="VI" URL="../Source/Constants/Support/Variant_1D/Const_Variant_1D.lvclass/Const_Variant_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/Variant_1D/Properties/Write Value.vi"/>
+			<Item Name="CPLX_DBL_1D.vi" Type="VI" URL="../Source/Constants/Support/CPLX_DBL_1D/CPLX_DBL_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_DBL_1D/Type.ctl"/>
+			<Item Name="Const_CPLX_DBL_1D.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_DBL_1D/Const_CPLX_DBL_1D.lvclass/Const_CPLX_DBL_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/CPLX_DBL_1D/Properties/Write Value.vi"/>
+			<Item Name="CPLX_EXT_1D.vi" Type="VI" URL="../Source/Constants/Support/CPLX_EXT_1D/CPLX_EXT_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_EXT_1D/Type.ctl"/>
+			<Item Name="Const_CPLX_EXT_1D.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_EXT_1D/Const_CPLX_EXT_1D.lvclass/Const_CPLX_EXT_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/CPLX_EXT_1D/Properties/Write Value.vi"/>
+			<Item Name="CPLX_SGL_1D.vi" Type="VI" URL="../Source/Constants/Support/CPLX_SGL_1D/CPLX_SGL_1D.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_SGL_1D/Type.ctl"/>
+			<Item Name="Const_CPLX_SGL_1D.ctl" Type="VI" URL="../Source/Constants/Support/CPLX_SGL_1D/Const_CPLX_SGL_1D.lvclass/Const_CPLX_SGL_1D.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Constants/Support/CPLX_SGL_1D/Properties/Write Value.vi"/>
+			<Item Name="Simple Read.vi" Type="VI" URL="../Source/Abs_Types/Time 1D/Simple Read.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Abs_Types/Time 1D/Support/Type.ctl"/>
+			<Item Name="Simple Read.vi" Type="VI" URL="../Source/Abs_Types/Variant 1D/Simple Read.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Abs_Types/Variant 1D/Support/Type.ctl"/>
+			<Item Name="Simple Read.vi" Type="VI" URL="../Source/Abs_Types/Waveform 1D/Simple Read.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Abs_Types/Waveform 1D/Support/Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOT/Bool/Method.vi"/>
+			<Item Name="AbsFunc_One Term_Bool.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/Boolean/AbsFunc_One Term_Bool.lvclass/AbsFunc_One Term_Bool.ctl"/>
+			<Item Name="Write Bool A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/Boolean/Properties/Write Bool A.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOT/I8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOT/I8/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_One Term_I8.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I8/AbsFunc_One Term_I8.lvclass/AbsFunc_One Term_I8.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I8/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I8/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOT/I16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOT/I16/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_One Term_I16.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I16/AbsFunc_One Term_I16.lvclass/AbsFunc_One Term_I16.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I16/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I16/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOT/I32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOT/I32/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_One Term_I32.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I32/AbsFunc_One Term_I32.lvclass/AbsFunc_One Term_I32.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I32/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I32/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOT/I64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOT/I64/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_One Term_I64.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I64/AbsFunc_One Term_I64.lvclass/AbsFunc_One Term_I64.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I64/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/I64/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOT/U8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOT/U8/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_One Term_U8.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U8/AbsFunc_One Term_U8.lvclass/AbsFunc_One Term_U8.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U8/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U8/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOT/U16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOT/U16/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_One Term_U16.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U16/AbsFunc_One Term_U16.lvclass/AbsFunc_One Term_U16.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U16/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U16/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOT/U32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOT/U32/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_One Term_U32.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U32/AbsFunc_One Term_U32.lvclass/AbsFunc_One Term_U32.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U32/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U32/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOT/U64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOT/U64/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_One Term_U64.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U64/AbsFunc_One Term_U64.lvclass/AbsFunc_One Term_U64.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U64/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/U64/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/CPLX_DBL/Method.vi"/>
+			<Item Name="AbsFunc_One Term_DBL.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/DBL/AbsFunc_One Term_DBL.lvclass/AbsFunc_One Term_DBL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/DBL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/DBL/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/CPLX_EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/CPLX_SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/EXT/Method.vi"/>
+			<Item Name="AbsFunc_One Term_EXT.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/EXT/AbsFunc_One Term_EXT.lvclass/AbsFunc_One Term_EXT.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/EXT/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/EXT/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/SGL/Method.vi"/>
+			<Item Name="AbsFunc_One Term_SGL.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/SGL/AbsFunc_One Term_SGL.lvclass/AbsFunc_One Term_SGL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/SGL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/SGL/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/Time/Method.vi"/>
+			<Item Name="AbsFunc_One Term_Time.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/Time/AbsFunc_One Term_Time.lvclass/AbsFunc_One Term_Time.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/Time/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/Time/Support/Abstract Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/Variant/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/Variant/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/DBL 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/DBL 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/Bool 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/Bool 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/CPLX_DBL 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/CPLX_DBL 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/CPLX_EXT 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/CPLX_EXT 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/CPLX_SGL 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/CPLX_SGL 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/EXT 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/EXT 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/I8 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/I8 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/I16 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/I16 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/I32 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/I32 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/I64 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/I64 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/SGL 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/SGL 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/U8 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/U8 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/U16 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/U16 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/U32 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/U32 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/U64 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/U64 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/STR 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/STR 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/Time 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/Time 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/Variant 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/Variant 1D/Type.ctl"/>
+			<Item Name="Init_Simple_Var.vi" Type="VI" URL="../Source/Variables/Support/WFM 1D/Support/Init_Simple_Var.vi"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Source/Variables/Support/WFM 1D/Type.ctl"/>
+			<Item Name="Static Read.vi" Type="VI" URL="../Source/Abs_Types/Time 1D/Static Read.vi"/>
+			<Item Name="Static Read.vi" Type="VI" URL="../Source/Abs_Types/Variant 1D/Static Read.vi"/>
+			<Item Name="Static Read.vi" Type="VI" URL="../Source/Abs_Types/Waveform 1D/Static Read.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/Bool/Method.vi"/>
+			<Item Name="AbsFunc_Two Term_Bool.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Boolean/AbsFunc_Two Term_Bool.lvclass/AbsFunc_Two Term_Bool.ctl"/>
+			<Item Name="Write Bool A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Boolean/Properties/Write Bool A.vi"/>
+			<Item Name="Write Bool B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Boolean/Properties/Write Bool B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/I8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/OR/I8/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_I8.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I8/AbsFunc_Two Term_I8.lvclass/AbsFunc_Two Term_I8.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I8/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I8/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I8/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/I16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/OR/I16/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_I16.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I16/AbsFunc_Two Term_I16.lvclass/AbsFunc_Two Term_I16.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I16/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I16/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I16/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/I32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/OR/I32/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_I32.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I32/AbsFunc_Two Term_I32.lvclass/AbsFunc_Two Term_I32.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I32/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I32/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I32/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/I64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/OR/I64/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_I64.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I64/AbsFunc_Two Term_I64.lvclass/AbsFunc_Two Term_I64.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I64/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I64/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/I64/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/U8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/OR/U8/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_U8.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U8/AbsFunc_Two Term_U8.lvclass/AbsFunc_Two Term_U8.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U8/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U8/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U8/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/U16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/OR/U16/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_U16.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U16/AbsFunc_Two Term_U16.lvclass/AbsFunc_Two Term_U16.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U16/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U16/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U16/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/U32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/OR/U32/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_U32.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U32/AbsFunc_Two Term_U32.lvclass/AbsFunc_Two Term_U32.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U32/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U32/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U32/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/U64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/OR/U64/Abs_Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_U64.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U64/AbsFunc_Two Term_U64.lvclass/AbsFunc_Two Term_U64.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U64/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U64/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/U64/Properties/Write Numeric B.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/Bool/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/OR/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/Bool/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/Bool/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U64/Abs_Type.ctl"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/Bool/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXOR/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/Bool/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/Bool/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U64/Abs_Type.ctl"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/Bool/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/EXNOR/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/Bool/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NOR/Bool/Abs_Type.ctl"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/Bool/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NOR/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/Bool/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/I8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/AND/I8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/I16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/AND/I16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/I32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/AND/I32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/U8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/AND/U8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/U16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/AND/U16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/U32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/AND/U32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/U64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/AND/U64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/I64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/AND/I64/Abs_Type.ctl"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/Bool/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/DBL/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/DBL/Abs Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_DBL.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/DBL/AbsFunc_Two Term_DBL.lvclass/AbsFunc_Two Term_DBL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/DBL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/DBL/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/DBL/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/SGL/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/SGL/Abs Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_SGL.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/SGL/AbsFunc_Two Term_SGL.lvclass/AbsFunc_Two Term_SGL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/SGL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/SGL/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/SGL/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/EXT/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/EXT/Abs Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_EXT.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/EXT/AbsFunc_Two Term_EXT.lvclass/AbsFunc_Two Term_EXT.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/EXT/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/EXT/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/EXT/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I8/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I8/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I16/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I16/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I32/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I32/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I64/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I64/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U8/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U8/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U16/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U16/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U32/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U32/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U64/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U64/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/CPLX_DBL/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/CPLX_DBL/Abs Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_Complex DBL.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx DBL/AbsFunc_Two Term_Complex DBL.lvclass/AbsFunc_Two Term_Complex DBL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx DBL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx DBL/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx DBL/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/CPLX_EXT/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/CPLX_EXT/Abs Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_Complex EXT.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx EXT/AbsFunc_Two Term_Complex EXT.lvclass/AbsFunc_Two Term_Complex EXT.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx EXT/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx EXT/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx EXT/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/CPLX_SGL/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/CPLX_SGL/Abs Type.ctl"/>
+			<Item Name="AbsFunc_Two Term_Complex SGL.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx SGL/AbsFunc_Two Term_Complex SGL.lvclass/AbsFunc_Two Term_Complex SGL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx SGL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx SGL/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Cmplx SGL/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time/Method.vi"/>
+			<Item Name="Subtract_Time.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time/Subtract_Time.lvclass/Subtract_Time.ctl"/>
+			<Item Name="Write Input A.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time/Properties/Write Input A.vi"/>
+			<Item Name="Write Input B.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time/Properties/Write Input B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time-Time/Method.vi"/>
+			<Item Name="Subtract_Time-Time.ctl" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time-Time/Subtract_Time-Time.lvclass/Subtract_Time-Time.ctl"/>
+			<Item Name="Write Input A.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time-Time/Properties/Write Input A.vi"/>
+			<Item Name="Write Input B.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time-Time/Properties/Write Input B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/WFM_Numeric/Method.vi"/>
+			<Item Name="AbsFunc_Two Term_WFM_Numeric.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/WFM_Numeric/AbsFunc_Two Term_WFM_Numeric.lvclass/AbsFunc_Two Term_WFM_Numeric.ctl"/>
+			<Item Name="Write Abs_Waveform.lvclass.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/WFM_Numeric/Properties/Write Abs_Waveform.lvclass.vi"/>
+			<Item Name="Write Numeric.lvclass.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/WFM_Numeric/Properties/Write Numeric.lvclass.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/CPLX_DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/CPLX_EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/CPLX_SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/Time-Time/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/U64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Subtract/WFM_Numeric/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/SGL/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/SGL/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/EXT/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/EXT/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/I8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/I8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/I16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/I16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/I32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/I32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/I64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/I64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/U8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/U8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/U16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/U16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/U32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/U32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/U64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/U64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/CPLX_DBL/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/CPLX_DBL/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/CPLX_EXT/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/CPLX_EXT/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/CPLX_SGL/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Add/CPLX_SGL/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/Time/Method.vi"/>
+			<Item Name="AbsFunc_Two Term_Time.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Time/AbsFunc_Two Term_Time.lvclass/AbsFunc_Two Term_Time.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Time/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Time/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Time/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/WFM_Numeric/Method.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/CPLX_DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/CPLX_EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/CPLX_SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/Time/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/U64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Add/WFM_Numeric/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/SGL/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/SGL/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/EXT/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/EXT/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/CPLX_DBL/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/CPLX_DBL/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/CPLX_EXT/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/CPLX_EXT/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/CPLX_SGL/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Multiply/CPLX_SGL/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/WFM_Numeric/Method.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/CPLX_DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/CPLX_EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/CPLX_SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/U64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Multiply/WFM_Numeric/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/DBL/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Divide/DBL/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/SGL/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Divide/SGL/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/EXT/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Divide/EXT/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/CPLX_DBL/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Divide/CPLX_DBL/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/CPLX_SGL/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Divide/CPLX_SGL/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/CPLX_EXT/Method.vi"/>
+			<Item Name="Abs Type.ctl" Type="VI" URL="../Source/Functions/Math/Support/Divide/CPLX_EXT/Abs Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/INT/Method.vi"/>
+			<Item Name="Divide_INT.ctl" Type="VI" URL="../Source/Functions/Math/Support/Divide/INT/Divide_INT.lvclass/Divide_INT.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/INT/Properties/Write Numeric A.vi"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/INT/Properties/Write Numeric B.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/CPLX_DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/CPLX_EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/CPLX_SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/INT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/SGL/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/WFM_Numeric/Method.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Math/Support/Divide/WFM_Numeric/Method_Const.vi"/>
+			<Item Name="StringLen_I32.ctl" Type="VI" URL="../Source/Functions/String/Support/StringLen/StringLen_I32.lvclass/StringLen_I32.ctl"/>
+			<Item Name="Write String.vi" Type="VI" URL="../Source/Functions/String/Support/StringLen/Properties/Write String.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/DBL/Method.vi"/>
+			<Item Name="ConvertTo_DBL.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/DBL/ConvertTo_DBL.lvclass/ConvertTo_DBL.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/DBL/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/SGL/Method.vi"/>
+			<Item Name="ConvertTo_SGL.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/SGL/ConvertTo_SGL.lvclass/ConvertTo_SGL.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/SGL/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/EXT/Method.vi"/>
+			<Item Name="ConvertTo_EXT.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/EXT/ConvertTo_EXT.lvclass/ConvertTo_EXT.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/EXT/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/I8/Method.vi"/>
+			<Item Name="ConvertTo_I8.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/I8/ConvertTo_I8.lvclass/ConvertTo_I8.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/I8/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/I16/Method.vi"/>
+			<Item Name="ConvertTo_I16.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/I16/ConvertTo_I16.lvclass/ConvertTo_I16.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/I16/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/I32/Method.vi"/>
+			<Item Name="ConvertTo_I32.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/I32/ConvertTo_I32.lvclass/ConvertTo_I32.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/I32/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/I64/Method.vi"/>
+			<Item Name="ConvertTo_I64.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/I64/ConvertTo_I64.lvclass/ConvertTo_I64.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/I64/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/U8/Method.vi"/>
+			<Item Name="ConvertTo_U8.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/U8/ConvertTo_U8.lvclass/ConvertTo_U8.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/U8/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/U16/Method.vi"/>
+			<Item Name="ConvertTo_U16.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/U16/ConvertTo_U16.lvclass/ConvertTo_U16.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/U16/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/U32/Method.vi"/>
+			<Item Name="ConvertTo_U32.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/U32/ConvertTo_U32.lvclass/ConvertTo_U32.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/U32/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/U64/Method.vi"/>
+			<Item Name="ConvertTo_U64.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/U64/ConvertTo_U64.lvclass/ConvertTo_U64.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/U64/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/String/Method.vi"/>
+			<Item Name="ConvertTo_String.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/String/ConvertTo_String.lvclass/ConvertTo_String.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/String/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/Binary/Method.vi"/>
+			<Item Name="ConvertTo_Binary.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/Binary/ConvertTo_Binary.lvclass/ConvertTo_Binary.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/Binary/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/JSON/Method.vi"/>
+			<Item Name="ConvertTo_JSON.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/JSON/ConvertTo_JSON.lvclass/ConvertTo_JSON.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/JSON/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/CPLX_DBL/Method.vi"/>
+			<Item Name="ConvertTo_CPLX_DBL.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/CPLX_DBL/ConvertTo_CPLX_DBL.lvclass/ConvertTo_CPLX_DBL.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/CPLX_DBL/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/CPLX_EXT/Method.vi"/>
+			<Item Name="ConvertTo_CPLX_EXT.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/CPLX_EXT/ConvertTo_CPLX_EXT.lvclass/ConvertTo_CPLX_EXT.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/CPLX_EXT/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Conversion/Support/CPLX_SGL/Method.vi"/>
+			<Item Name="ConvertTo_CPLX_SGL.ctl" Type="VI" URL="../Source/Functions/Conversion/Support/CPLX_SGL/ConvertTo_CPLX_SGL.lvclass/ConvertTo_CPLX_SGL.ctl"/>
+			<Item Name="Write Value.vi" Type="VI" URL="../Source/Functions/Conversion/Support/CPLX_SGL/Properties/Write Value.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/CPLX_DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/CPLX_EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/CPLX_SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Decrement/U64/Method.vi"/>
+			<Item Name="AbsFunc_One Term_STR.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/STR/AbsFunc_One Term_STR.lvclass/AbsFunc_One Term_STR.ctl"/>
+			<Item Name="Write String A.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/STR/Properties/Write String A.vi"/>
+			<Item Name="Concatenate_STR.ctl" Type="VI" URL="../Source/Functions/String/Support/Concatenate/Concatenate_STR.lvclass/Concatenate_STR.ctl"/>
+			<Item Name="Write Strings.vi" Type="VI" URL="../Source/Functions/String/Support/Concatenate/Properties/Write Strings.vi"/>
+			<Item Name="Subset_STR.ctl" Type="VI" URL="../Source/Functions/String/Support/SubSet/Subset_STR.lvclass/Subset_STR.ctl"/>
+			<Item Name="Write String.vi" Type="VI" URL="../Source/Functions/String/Support/SubSet/Properties/Write String.vi"/>
+			<Item Name="Write Offset.vi" Type="VI" URL="../Source/Functions/String/Support/SubSet/Properties/Write Offset.vi"/>
+			<Item Name="Write Length.vi" Type="VI" URL="../Source/Functions/String/Support/SubSet/Properties/Write Length.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/AND/Bool_1D/Method.vi"/>
+			<Item Name="AbsFunc_Two Term_Bool_1D.ctl" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Bool_1D/AbsFunc_Two Term_Bool_1D.lvclass/AbsFunc_Two Term_Bool_1D.ctl"/>
+			<Item Name="Write Bool1D A.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Bool_1D/Properties/Write Bool1D A.vi"/>
+			<Item Name="Write Bool1D B.vi" Type="VI" URL="../Source/Functions/Support/Function/Two Terminal/Bool_1D/Properties/Write Bool1D B.vi"/>
+			<Item Name="Static Write.vi" Type="VI" URL="../Source/Abs_Types/Time 1D/Static Write.vi"/>
+			<Item Name="Static Write.vi" Type="VI" URL="../Source/Abs_Types/Variant 1D/Static Write.vi"/>
+			<Item Name="Static Write.vi" Type="VI" URL="../Source/Abs_Types/Waveform 1D/Static Write.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/DBL/Method.vi"/>
+			<Item Name="AbsComp_One Term_DBL.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/DBL/AbsComp_One Term_DBL.lvclass/AbsComp_One Term_DBL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/DBL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/DBL/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/EXT/Method.vi"/>
+			<Item Name="AbsComp_One Term_EXT.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/EXT/AbsComp_One Term_EXT.lvclass/AbsComp_One Term_EXT.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/EXT/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/EXT/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/SGL/Method.vi"/>
+			<Item Name="AbsComp_One Term_SGL.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/SGL/AbsComp_One Term_SGL.lvclass/AbsComp_One Term_SGL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/SGL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/SGL/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/I8/Method.vi"/>
+			<Item Name="AbsComp_One Term_I8.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I8/AbsComp_One Term_I8.lvclass/AbsComp_One Term_I8.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I8/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I8/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/I16/Method.vi"/>
+			<Item Name="AbsComp_One Term_I16.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I16/AbsComp_One Term_I16.lvclass/AbsComp_One Term_I16.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I16/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I16/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/I32/Method.vi"/>
+			<Item Name="AbsComp_One Term_I32.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I32/AbsComp_One Term_I32.lvclass/AbsComp_One Term_I32.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I32/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I32/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/I64/Method.vi"/>
+			<Item Name="AbsComp_One Term_I64.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I64/AbsComp_One Term_I64.lvclass/AbsComp_One Term_I64.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I64/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/I64/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/U8/Method.vi"/>
+			<Item Name="AbsComp_One Term_U8.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U8/AbsComp_One Term_U8.lvclass/AbsComp_One Term_U8.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U8/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U8/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/U16/Method.vi"/>
+			<Item Name="AbsComp_One Term_U16.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U16/AbsComp_One Term_U16.lvclass/AbsComp_One Term_U16.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U16/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U16/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/U32/Method.vi"/>
+			<Item Name="AbsComp_One Term_U32.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U32/AbsComp_One Term_U32.lvclass/AbsComp_One Term_U32.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U32/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U32/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/U64/Method.vi"/>
+			<Item Name="AbsComp_One Term_U64.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U64/AbsComp_One Term_U64.lvclass/AbsComp_One Term_U64.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U64/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/U64/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/CPLX_DBL/Method.vi"/>
+			<Item Name="AbsComp_One Term_CPLX_DBL.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/CPLX_DBL/AbsComp_One Term_CPLX_DBL.lvclass/AbsComp_One Term_CPLX_DBL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/CPLX_DBL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/CPLX_DBL/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/CPLX_EXT/Method.vi"/>
+			<Item Name="AbsComp_One Term_CPLX_EXT.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/CPLX_EXT/AbsComp_One Term_CPLX_EXT.lvclass/AbsComp_One Term_CPLX_EXT.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/CPLX_EXT/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/CPLX_EXT/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal 0/CPLX_SGL/Method.vi"/>
+			<Item Name="AbsComp_One Term_CPLX_SGL.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/CPLX_SGL/AbsComp_One Term_CPLX_SGL.lvclass/AbsComp_One Term_CPLX_SGL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/CPLX_SGL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/CPLX_SGL/Support/Abstract Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater 0/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less 0/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal 0/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/CPLX_DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/CPLX_EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/CPLX_SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal 0/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Lesser Equal 0/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/CPLX_DBL/Method.vi"/>
+			<Item Name="AbsComp_Two Term_CPLX_DBL.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_DBL/AbsComp_Two Term_CPLX_DBL.lvclass/AbsComp_Two Term_CPLX_DBL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_DBL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_DBL/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_DBL/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/CPLX_SGL/Method.vi"/>
+			<Item Name="AbsComp_Two Term_CPLX_SGL.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_SGL/AbsComp_Two Term_CPLX_SGL.lvclass/AbsComp_Two Term_CPLX_SGL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_SGL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_SGL/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_SGL/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/CPLX_EXT/Method.vi"/>
+			<Item Name="AbsComp_Two Term_CPLX_EXT.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_EXT/AbsComp_Two Term_CPLX_EXT.lvclass/AbsComp_Two Term_CPLX_EXT.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_EXT/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_EXT/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/CPLX_EXT/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/EXT/Method.vi"/>
+			<Item Name="AbsComp_Two Term_EXT.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/EXT/AbsComp_Two Term_EXT.lvclass/AbsComp_Two Term_EXT.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/EXT/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/EXT/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/EXT/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/I8/Method.vi"/>
+			<Item Name="AbsComp_Two Term_I8.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I8/AbsComp_Two Term_I8.lvclass/AbsComp_Two Term_I8.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I8/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I8/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I8/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/I16/Method.vi"/>
+			<Item Name="AbsComp_Two Term_I16.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I16/AbsComp_Two Term_I16.lvclass/AbsComp_Two Term_I16.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I16/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I16/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I16/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/I32/Method.vi"/>
+			<Item Name="AbsComp_Two Term_I32.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I32/AbsComp_Two Term_I32.lvclass/AbsComp_Two Term_I32.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I32/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I32/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I32/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/I64/Method.vi"/>
+			<Item Name="AbsComp_Two Term_I64.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I64/AbsComp_Two Term_I64.lvclass/AbsComp_Two Term_I64.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I64/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I64/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/I64/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/SGL/Method.vi"/>
+			<Item Name="AbsComp_Two Term_SGL.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/SGL/AbsComp_Two Term_SGL.lvclass/AbsComp_Two Term_SGL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/SGL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/SGL/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/SGL/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/U8/Method.vi"/>
+			<Item Name="AbsComp_Two Term_U8.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U8/AbsComp_Two Term_U8.lvclass/AbsComp_Two Term_U8.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U8/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U8/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U8/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/U16/Method.vi"/>
+			<Item Name="AbsComp_Two Term_U16.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U16/AbsComp_Two Term_U16.lvclass/AbsComp_Two Term_U16.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U16/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U16/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U16/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/U32/Method.vi"/>
+			<Item Name="AbsComp_Two Term_U32.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U32/AbsComp_Two Term_U32.lvclass/AbsComp_Two Term_U32.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U32/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U32/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U32/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/U64/Method.vi"/>
+			<Item Name="AbsComp_Two Term_U64.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U64/AbsComp_Two Term_U64.lvclass/AbsComp_Two Term_U64.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U64/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U64/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/U64/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/DBL/Method.vi"/>
+			<Item Name="AbsComp_Two Term_DBL.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/DBL/AbsComp_Two Term_DBL.lvclass/AbsComp_Two Term_DBL.ctl"/>
+			<Item Name="Write Numeric A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/DBL/Properties/Write Numeric A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/DBL/Support/Abstract Type.ctl"/>
+			<Item Name="Write Numeric B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/DBL/Properties/Write Numeric B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/STR/Method.vi"/>
+			<Item Name="AbsComp_Two Term_STR.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/STR/AbsComp_Two Term_STR.lvclass/AbsComp_Two Term_STR.ctl"/>
+			<Item Name="Write String A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/STR/Properties/Write String A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/STR/Support/Abstract Type.ctl"/>
+			<Item Name="Write String B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/STR/Properties/Write String B.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/Time/Method.vi"/>
+			<Item Name="AbsComp_Two Term_Time.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/Time/AbsComp_Two Term_Time.lvclass/AbsComp_Two Term_Time.ctl"/>
+			<Item Name="Write Time A.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/Time/Properties/Write Time A.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/Time/Support/Abstract Type.ctl"/>
+			<Item Name="Write Time B.vi" Type="VI" URL="../Source/Functions/Support/Compare/Two Term/Time/Properties/Write Time B.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/CPLX_DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/CPLX_EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/CPLX_SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/STR/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/Time/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Equal/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/CPLX_DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/CPLX_EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/CPLX_SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/U64/Method.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/CPLX_DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/CPLX_EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/CPLX_SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/STR/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/Time/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/Time/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Not Equal/STR/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/Time/Method.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/Time/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/Time/Method.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/Time/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/Time/Method.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/Time/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Greater Equal/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/U8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/U16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/U32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/U64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/Time/Method.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/DBL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/EXT/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/SGL/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/Time/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Compare/Support/Less Equal/U64/Method_Const.vi"/>
+			<Item Name="Abstract Type.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/STR/Support/Abstract Type.ctl"/>
+			<Item Name="AbsComp_One Term_STR.ctl" Type="VI" URL="../Source/Functions/Support/Compare/One Term/STR/AbsComp_One Term_STR.lvclass/AbsComp_One Term_STR.ctl"/>
+			<Item Name="MatchPattern_STR.ctl" Type="VI" URL="../Source/Functions/Compare/Support/Match Pattern/MatchPattern_STR.lvclass/MatchPattern_STR.ctl"/>
+			<Item Name="Write String A.vi" Type="VI" URL="../Source/Functions/Support/Compare/One Term/STR/Properties/Write String A.vi"/>
+			<Item Name="Write Pattern.vi" Type="VI" URL="../Source/Functions/Compare/Support/Match Pattern/Properties/Write Pattern.vi"/>
+			<Item Name="Write Offset.vi" Type="VI" URL="../Source/Functions/Compare/Support/Match Pattern/Properties/Write Offset.vi"/>
+			<Item Name="Write Offset Past Match.vi" Type="VI" URL="../Source/Functions/Compare/Support/Match Pattern/Properties/Write Offset Past Match.vi"/>
+			<Item Name="Write Match.vi" Type="VI" URL="../Source/Functions/Compare/Support/Match Pattern/Properties/Write Match.vi"/>
+			<Item Name="Write After Match.vi" Type="VI" URL="../Source/Functions/Compare/Support/Match Pattern/Properties/Write After Match.vi"/>
+			<Item Name="Write Before Match.vi" Type="VI" URL="../Source/Functions/Compare/Support/Match Pattern/Properties/Write Before Match.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/Bool/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I64/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U8/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U8/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U16/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U16/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U32/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U32/Abs_Type.ctl"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U64/Method.vi"/>
+			<Item Name="Abs_Type.ctl" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U64/Abs_Type.ctl"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/Bool/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/I64/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U8/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U16/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U32/Method_Const.vi"/>
+			<Item Name="Method_Const.vi" Type="VI" URL="../Source/Functions/Logic/Support/NAND/U64/Method_Const.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/CPLX_DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/CPLX_EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/CPLX_SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/I8/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/I16/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/I32/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/I64/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Reciprocal/CPLX_DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Reciprocal/CPLX_EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Reciprocal/CPLX_SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Reciprocal/DBL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Reciprocal/EXT/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Reciprocal/SGL/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Increment/WFM/Method.vi"/>
+			<Item Name="AbsFunc_One Term_WFM_Numeric.ctl" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/WFM_Numeric/AbsFunc_One Term_WFM_Numeric.lvclass/AbsFunc_One Term_WFM_Numeric.ctl"/>
+			<Item Name="Write Abs_Waveform.lvclass.vi" Type="VI" URL="../Source/Functions/Support/Function/One Terminal/WFM_Numeric/Properties/Write Abs_Waveform.lvclass.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Invert/WFM/Method.vi"/>
+			<Item Name="Method.vi" Type="VI" URL="../Source/Functions/Math/Support/Reciprocal/Numeric/Method.vi"/>
+			<Item Name="Reciprocal_Numeric.ctl" Type="VI" URL="../Source/Functions/Math/Support/Reciprocal/Numeric/Reciprocal_Numeric.lvclass/Reciprocal_Numeric.ctl"/>
+			<Item Name="Write Numeric.vi" Type="VI" URL="../Source/Functions/Math/Support/Reciprocal/Numeric/Properties/Write Numeric.vi"/>
+			<Item Name="Insert_STR.ctl" Type="VI" URL="../Source/Functions/String/Support/Insert/Insert_STR.lvclass/Insert_STR.ctl"/>
+			<Item Name="Write String.vi" Type="VI" URL="../Source/Functions/String/Support/Insert/Properties/Write String.vi"/>
+			<Item Name="Write Insert.vi" Type="VI" URL="../Source/Functions/String/Support/Insert/Properties/Write Insert.vi"/>
+			<Item Name="Write Offset.vi" Type="VI" URL="../Source/Functions/String/Support/Insert/Properties/Write Offset.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
